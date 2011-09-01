@@ -14,6 +14,8 @@ Revision=	0
 URL=		http://www.selenic.com/mercurial/release/
 Source=		$(Name)-$(Version).tar.gz
 
+DistName=	compat-mercurial
+
 ReadMeFile=	$(SourceDir)/README
 LicenseFile=	$(SourceDir)/COPYING
 
