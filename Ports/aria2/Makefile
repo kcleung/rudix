@@ -13,3 +13,5 @@ ReadMeFile=	$(BuildDir)/README.asciidoc
 LicenseFile=	$(BuildDir)/COPYING
 
 GnuConfigureExtra += --with-included-gettext
+
+DistName=compat-aria2

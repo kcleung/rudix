@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <pkg-contents spec="1.12">
   <f n="pycurl-install" o="root" g="staff" p="16877" pt="pycurl-install" m="false" t="file">
-    <f n="Library" o="root" g="wheel" p="16877">
-      <f n="Python" o="root" g="wheel" p="16877">
-        <f n="2.7" o="root" g="wheel" p="16877">
-          <f n="site-packages" o="root" g="wheel" p="16877">
-            <f n="curl" o="root" g="wheel" p="16893">
-              <f n="__init__.py" o="root" g="wheel" p="33204">
+    <f n="Library" o="root" g="admin" p="17405">
+      <f n="Python" o="root" g="admin" p="16893">
+        <f n="2.6" o="root" g="admin" p="16893">
+          <f n="site-packages" o="root" g="admin" p="16893">
+            <f n="curl" o="root" g="admin" p="16893">
+              <f n="__init__.py" o="root" g="admin" p="33204">
                 <mod>mode</mod>
               </f>
-              <f n="__init__.pyc" o="root" g="wheel" p="33204">
+              <f n="__init__.pyc" o="root" g="admin" p="33204">
                 <mod>mode</mod>
               </f>
               <mod>mode</mod>
             </f>
-            <f n="pycurl-7.19.0-py2.7.egg-info" o="root" g="wheel" p="33204">
+            <f n="pycurl-7.19.0-py2.6.egg-info" o="root" g="admin" p="33204">
               <mod>mode</mod>
             </f>
-            <f n="pycurl.so" o="root" g="wheel" p="33277">
+            <f n="pycurl.so" o="root" g="admin" p="33277">
               <mod>mode</mod>
             </f>
           </f>
