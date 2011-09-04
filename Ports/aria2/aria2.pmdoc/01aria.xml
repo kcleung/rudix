@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="3C433454-D502-11E0-88D2-D49A200B3D20">
+<pkgref spec="1.12" uuid="152A0A96-D509-11E0-A906-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.aria2</identifier>
     <version>1.12.1-0</version>
