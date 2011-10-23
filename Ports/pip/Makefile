@@ -11,3 +11,5 @@ Source=		$(Name)-$(Version).tar.gz
 
 ReadMeFile=	$(SourceDir)/docs/index.txt
 LicenseFile=	$(SourceDir)/license.txt
+
+DistName=compat-pip

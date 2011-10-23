@@ -11,3 +11,5 @@ Source=		$(Name)-$(Version).tar.gz
 
 ReadMeFile=	$(SourceDir)/README.txt
 LicenseFile=	$(SourceDir)/LICENSE.txt
+
+DistName=compat-scons

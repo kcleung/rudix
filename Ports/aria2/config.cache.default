@@ -11,7 +11,7 @@
 # loading this file, other *unset* `ac_cv_foo' will be assigned the
 # following values.
 
-ac_cv_build=${ac_cv_build=x86_64-apple-darwin11.2.0}
+ac_cv_build=${ac_cv_build=i386-apple-darwin10.8.0}
 ac_cv_c_bigendian=${ac_cv_c_bigendian=universal}
 ac_cv_c_compiler_gnu=${ac_cv_c_compiler_gnu=yes}
 ac_cv_c_const=${ac_cv_c_const=yes}
@@ -158,7 +158,7 @@ ac_cv_func_strdup=${ac_cv_func_strdup=yes}
 ac_cv_func_strerror=${ac_cv_func_strerror=yes}
 ac_cv_func_strftime=${ac_cv_func_strftime=yes}
 ac_cv_func_strncasecmp=${ac_cv_func_strncasecmp=yes}
-ac_cv_func_strnlen=${ac_cv_func_strnlen=yes}
+ac_cv_func_strnlen=${ac_cv_func_strnlen=no}
 ac_cv_func_strptime=${ac_cv_func_strptime=yes}
 ac_cv_func_strstr=${ac_cv_func_strstr=yes}
 ac_cv_func_strtod=${ac_cv_func_strtod=yes}
@@ -178,8 +178,8 @@ ac_cv_func_vfork_works=${ac_cv_func_vfork_works=yes}
 ac_cv_func_vprintf=${ac_cv_func_vprintf=yes}
 ac_cv_func_wcrtomb=${ac_cv_func_wcrtomb=yes}
 ac_cv_func_wcslen=${ac_cv_func_wcslen=yes}
-ac_cv_func_wcsnlen=${ac_cv_func_wcsnlen=yes}
-ac_cv_func_working_mktime=${ac_cv_func_working_mktime=no}
+ac_cv_func_wcsnlen=${ac_cv_func_wcsnlen=no}
+ac_cv_func_working_mktime=${ac_cv_func_working_mktime=yes}
 ac_cv_gnu_library_2=${ac_cv_gnu_library_2=no}
 ac_cv_gnu_library_2_1=${ac_cv_gnu_library_2_1=no}
 ac_cv_have_decl__snprintf=${ac_cv_have_decl__snprintf=no}
@@ -227,7 +227,7 @@ ac_cv_header_unistd_h=${ac_cv_header_unistd_h=yes}
 ac_cv_header_utime_h=${ac_cv_header_utime_h=yes}
 ac_cv_header_vfork_h=${ac_cv_header_vfork_h=no}
 ac_cv_header_wchar_h=${ac_cv_header_wchar_h=yes}
-ac_cv_host=${ac_cv_host=x86_64-apple-darwin11.2.0}
+ac_cv_host=${ac_cv_host=i386-apple-darwin10.8.0}
 ac_cv_lib_cares_ares_init=${ac_cv_lib_cares_ares_init=no}
 ac_cv_lib_crypto_main=${ac_cv_lib_crypto_main=yes}
 ac_cv_lib_error_at_line=${ac_cv_lib_error_at_line=no}
@@ -237,6 +237,8 @@ ac_cv_lib_ssl_SSL_library_init=${ac_cv_lib_ssl_SSL_library_init=yes}
 ac_cv_lib_z_zlibVersion=${ac_cv_lib_z_zlibVersion=yes}
 ac_cv_member_struct_sockaddr_in_sin_len=${ac_cv_member_struct_sockaddr_in_sin_len=yes}
 ac_cv_objext=${ac_cv_objext=o}
+ac_cv_path_A2X=${ac_cv_path_A2X=/usr/local/bin/a2x}
+ac_cv_path_ASCIIDOC=${ac_cv_path_ASCIIDOC=/usr/local/bin/asciidoc}
 ac_cv_path_CPPUNIT_CONFIG=${ac_cv_path_CPPUNIT_CONFIG=no}
 ac_cv_path_EGREP=${ac_cv_path_EGREP='/usr/bin/grep -E'}
 ac_cv_path_GMSGFMT=${ac_cv_path_GMSGFMT=:}
@@ -264,7 +266,7 @@ ac_cv_search_clock_gettime=${ac_cv_search_clock_gettime=no}
 ac_cv_struct_tm=${ac_cv_struct_tm=time.h}
 ac_cv_sys_file_offset_bits=${ac_cv_sys_file_offset_bits=no}
 ac_cv_sys_largefile_CC=${ac_cv_sys_largefile_CC=no}
-ac_cv_target=${ac_cv_target=x86_64-apple-darwin11.2.0}
+ac_cv_target=${ac_cv_target=i386-apple-darwin10.8.0}
 ac_cv_type__Bool=${ac_cv_type__Bool=no}
 ac_cv_type_long_long_int=${ac_cv_type_long_long_int=yes}
 ac_cv_type_mode_t=${ac_cv_type_mode_t=yes}
@@ -284,7 +286,7 @@ acl_cv_hardcode_minus_L=${acl_cv_hardcode_minus_L=no}
 acl_cv_libext=${acl_cv_libext=a}
 acl_cv_libname_spec=${acl_cv_libname_spec='lib$name'}
 acl_cv_library_names_spec=${acl_cv_library_names_spec='$libname$shrext'}
-acl_cv_path_LD=${acl_cv_path_LD=/usr/llvm-gcc-4.2/libexec/gcc/i686-apple-darwin11/4.2.1/ld}
+acl_cv_path_LD=${acl_cv_path_LD=/usr/libexec/gcc/i686-apple-darwin10/4.2.1/ld}
 acl_cv_prog_gnu_ld=${acl_cv_prog_gnu_ld=no}
 acl_cv_rpath=${acl_cv_rpath=done}
 acl_cv_shlibext=${acl_cv_shlibext=dylib}
