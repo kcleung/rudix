@@ -1,25 +1,25 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="98000146-F791-11E0-B72F-0017F22C0C04">
+<pkgref spec="1.12" uuid="0AD303DC-5AFF-11E1-9ADF-D49A200B3D20">
   <config>
-    <identifier>org.rudix.pkg.aria2</identifier>
-    <version>1.13.0-0</version>
+    <identifier>org.rudix.pkg.virtualenv</identifier>
+    <version>1.7.1.2-0</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
-    <installFrom relative="true" mod="true">aria2-install</installFrom>
+    <installFrom relative="true" mod="true">virtualenv-install</installFrom>
     <installTo>/</installTo>
     <flags>
       <followSymbolicLinks/>
     </flags>
     <packageStore type="internal"/>
-    <mod>installTo</mod>
+    <mod>version</mod>
     <mod>installFrom.path</mod>
     <mod>identifier</mod>
+    <mod>installTo</mod>
     <mod>parent</mod>
-    <mod>version</mod>
   </config>
   <contents>
-    <file-list>01aria2-contents.xml</file-list>
+    <file-list>01virtualenv-contents.xml</file-list>
     <filter>/CVS$</filter>
     <filter>/\.svn$</filter>
     <filter>/\.cvsignore$</filter>

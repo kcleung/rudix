@@ -1,5 +1,5 @@
-# GNUFormula.mk - Formula to build in GNU Style (with help of configure)
-# Copyright (c) 2011 Ruda Moura
+# GNUFormula.mk - Build software in GNU Style (with help of configure)
+# Copyright (c) 2011-2012 Ruda Moura
 # Authors: Ruda Moura, Leonardo Santagada
 
 ifeq ($(RUDIX_ENABLE_NLS),yes)
@@ -49,3 +49,7 @@ define test_inner_hook
 $(call test_universal)
 cd $(BuildDir) ; $(make) check || $(call error_color,One or more tests failed)
 endef
+
+buildclean:
+	cd $(BuildDir) ; $(make) clean
+	rm -f build

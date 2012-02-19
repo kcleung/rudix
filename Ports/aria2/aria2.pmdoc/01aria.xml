@@ -1,8 +1,12 @@
 <?xml version="1.0"?>
+<<<<<<< mine
 <pkgref spec="1.12" uuid="152A0A96-D509-11E0-A906-0017F22C0C04">
+=======
+<pkgref spec="1.12" uuid="7CCA4047-4A0A-11E1-8070-D49A200B3D20">
+>>>>>>> theirs
   <config>
     <identifier>org.rudix.pkg.aria2</identifier>
-    <version>1.13.0-0</version>
+    <version>1.14.1-0</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
@@ -12,14 +16,14 @@
       <followSymbolicLinks/>
     </flags>
     <packageStore type="internal"/>
-    <mod>installTo</mod>
+    <mod>version</mod>
     <mod>installFrom.path</mod>
     <mod>identifier</mod>
+    <mod>installTo</mod>
     <mod>parent</mod>
-    <mod>version</mod>
   </config>
   <contents>
-    <file-list>01aria2-contents.xml</file-list>
+    <file-list>01aria-contents.xml</file-list>
     <filter>/CVS$</filter>
     <filter>/\.svn$</filter>
     <filter>/\.cvsignore$</filter>
