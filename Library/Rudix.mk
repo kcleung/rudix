@@ -123,7 +123,7 @@ wiki:
 
 upload: pkg
 	@$(call info_color,Sending $(PkgFile))
-	hg tag -f $(DistName)-$(Version)-$(Revision)
+	hg tag -f $(DistName)-$(Version)-$(Revision)-SnowLeopard
 	../../Library/googlecode_upload.py -p rudix-snowleopard -s "$(Title)" -d Description -l $(RUDIX_LABELS) $(PkgFile)
 	#twitter -erudix4mac set "$(Title): $(DistName)-$(Version)-$(Revision) http://code.google.com/p/rudix/downloads/detail?name=$(PkgFile)"
 	@$(call info_color,Finished)
