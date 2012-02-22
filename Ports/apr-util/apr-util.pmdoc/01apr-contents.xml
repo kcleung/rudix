@@ -19,6 +19,9 @@
             <f n="apr_buckets.h" o="root" g="wheel" p="33204">
               <mod>mode</mod>
             </f>
+            <f n="apr_crypto.h" o="root" g="wheel" p="33204">
+              <mod>mode</mod>
+            </f>
             <f n="apr_date.h" o="root" g="wheel" p="33204">
               <mod>mode</mod>
             </f>
@@ -97,6 +100,9 @@
             <f n="apu.h" o="root" g="wheel" p="33204">
               <mod>mode</mod>
             </f>
+            <f n="apu_errno.h" o="root" g="wheel" p="33204">
+              <mod>mode</mod>
+            </f>
             <f n="apu_version.h" o="root" g="wheel" p="33204">
               <mod>mode</mod>
             </f>
@@ -107,6 +113,18 @@
         </f>
         <f n="lib" o="root" g="wheel" p="16893">
           <f n="apr-util-1" o="root" g="wheel" p="16893">
+            <f n="apr_dbd_pgsql-1.so" o="root" g="wheel" p="33277">
+              <mod>mode</mod>
+            </f>
+            <f n="apr_dbd_pgsql.a" o="root" g="wheel" p="33204">
+              <mod>mode</mod>
+            </f>
+            <f n="apr_dbd_pgsql.la" o="root" g="wheel" p="33277">
+              <mod>mode</mod>
+            </f>
+            <f n="apr_dbd_pgsql.so" o="root" g="wheel" p="41469">
+              <mod>mode</mod>
+            </f>
             <f n="apr_dbd_sqlite3-1.so" o="root" g="wheel" p="33277">
               <mod>mode</mod>
             </f>
@@ -119,14 +137,12 @@
             <f n="apr_dbd_sqlite3.so" o="root" g="wheel" p="41469">
               <mod>mode</mod>
             </f>
+            <mod>mode</mod>
           </f>
           <f n="aprutil.exp" o="root" g="wheel" p="33277">
             <mod>mode</mod>
           </f>
-          <f n="libaprutil-1.0.3.12.dylib" o="root" g="wheel" p="33277">
-            <mod>mode</mod>
-          </f>
-          <f n="libaprutil-1.0.dylib" o="root" g="wheel" p="41469">
+          <f n="libaprutil-1.0.dylib" o="root" g="wheel" p="33277">
             <mod>mode</mod>
           </f>
           <f n="libaprutil-1.a" o="root" g="wheel" p="33204">
@@ -159,6 +175,7 @@
               <f n="README" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
+              <mod>mode</mod>
             </f>
           </f>
         </f>
