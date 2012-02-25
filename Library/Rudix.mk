@@ -2,7 +2,7 @@
 # Copyright (c) 2005-2012 Ruda Moura
 # Authors: Ruda Moura, Leonardo Santagada
 
-BuildSystem = 20120217
+BuildSystem = 20120225
 
 Vendor = org.rudix
 UncompressedName = $(Name)-$(Version)
@@ -123,9 +123,9 @@ wiki:
 
 upload: pkg
 	@$(call info_color,Sending $(PkgFile))
-	hg tag -f $(DistName)-$(Version)-$(Revision)-SnowLeopard
-	../../Library/googlecode_upload.py -p rudix-snowleopard -s "$(Title)" -d Description -l $(RUDIX_LABELS) $(PkgFile)
-	#twitter -erudix4mac set "$(Title): $(DistName)-$(Version)-$(Revision) http://code.google.com/p/rudix/downloads/detail?name=$(PkgFile)"
+	../../Library/googlecode_upload.py -p rudix -s "$(Title)" -d Description -l $(RUDIX_LABELS) $(PkgFile)
+	echo hg tag -f $(DistName)-$(Version)-$(Revision)
+	echo twitter -erudix4mac set "$(Title): $(DistName)-$(Version)-$(Revision) http://code.google.com/p/rudix/downloads/detail?name=$(PkgFile)"
 	@$(call info_color,Finished)
 
 help:
@@ -208,15 +208,6 @@ endef
 define configure
 ./configure $(ConfigureExtra) \
 	--prefix=$(Prefix)
-endef
-
-define gnu_configure
-./configure $(GnuConfigureExtra) \
-	--prefix=$(Prefix) \
-	--mandir=$(ManDir) \
-	--infodir=$(InfoDir) \
-	$(if $(RUDIX_DISABLE_DEPENDENCY_TRACKING),--disable-dependency-tracking) \
-	$(if $(RUDIX_SAVE_CONFIGURE_CACHE),--cache-file=$(PortDir)/config.cache)
 endef
 
 define make

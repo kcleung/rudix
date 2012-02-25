@@ -37,6 +37,6 @@ touch install
 endef
 
 define test_inner_hook
-python test_rudix.py
+python test.py
 touch test
 endef

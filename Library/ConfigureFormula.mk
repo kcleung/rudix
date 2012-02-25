@@ -1,24 +1,8 @@
-# GNUFormula.mk - GNU Configure Formula
+# ConfigureFormula.mk - Generic Configure Formula
 # Copyright (c) 2011-2012 Ruda Moura
 # Authors: Ruda Moura, Leonardo Santagada
 
-ifeq ($(RUDIX_ENABLE_NLS),yes)
-GnuConfigureExtra += --enable-nls
-BuildRequires += /usr/local/lib/libintl.la
-else ifeq ($(RUDIX_ENABLE_NLS),no)
-GnuConfigureExtra += --disable-nls
-endif
-
-define gnu_configure
-./configure $(GnuConfigureExtra) \
-	--prefix=$(Prefix) \
-	--mandir=$(ManDir) \
-	--infodir=$(InfoDir) \
-	$(if $(RUDIX_DISABLE_DEPENDENCY_TRACKING),--disable-dependency-tracking) \
-	$(if $(RUDIX_SAVE_CONFIGURE_CACHE),--cache-file=$(PortDir)/config.cache)
-endef
-
-define install_gnu_documentation
+define install_extra_documentation
 for x in $(wildcard \
 	$(BuildDir)/AUTHORS* \
 	$(BuildDir)/ACKS* \
@@ -41,8 +25,7 @@ endef
 define build_inner_hook
 $(call info_color,Running Configure)
 cd $(BuildDir) ; \
-env CFLAGS="$(CFlags)" CXXFLAGS="$(CxxFlags)" LDFLAGS="$(LdFlags)" $(EnvExtra) \
-$(gnu_configure)
+env CFLAGS="$(CFlags)" CXXFLAGS="$(CxxFlags)" LDFLAGS="$(LdFlags)" $(EnvExtra) $(configure)
 $(call info_color,Done)
 cd $(BuildDir) ; $(make) $(MakeExtra)
 endef
@@ -51,12 +34,12 @@ define install_inner_hook
 cd $(BuildDir) ; \
 $(make) install DESTDIR="$(PortDir)/$(InstallDir)" $(MakeInstallExtra)
 $(install_base_documentation)
-$(install_gnu_documentation)
+$(install_extra_documentation)
 endef
 
 define test_inner_hook
 $(call test_universal)
-cd $(BuildDir) ; $(make) check || $(call error_color,One or more tests failed)
+cd $(BuildDir) ; $(make) test check || $(call error_color,One or more tests failed)
 endef
 
 buildclean:
