@@ -3,7 +3,7 @@
   <f n="pcre-install" o="root" g="staff" p="16877" pt="pcre-install" m="false" t="file">
     <f n="usr" o="root" g="wheel" p="16877">
       <f n="local" o="root" g="wheel" p="16877">
-        <f n="bin" o="root" g="wheel" p="16893">
+        <f n="bin" o="root" g="wheel" p="16877">
           <f n="pcre-config" o="root" g="wheel" p="33277">
             <mod>mode</mod>
           </f>
