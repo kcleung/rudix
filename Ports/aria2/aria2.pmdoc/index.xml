@@ -27,14 +27,16 @@ $ aria2c http://rudix.googlecode.com/hg/Ports/rudix/rudix.py
       <pkgref id="org.rudix.pkg.aria2"/>
     </choice>
   </contents>
-  <resources bg-scale="none" bg-align="topleft">
+  <resources bg-scale="none" bg-align="bottomleft">
     <locale lang="en">
+      <resource relative="true" mod="true" type="background">../../Library/rudix.png</resource>
       <resource relative="true" mod="true" type="license">aria2-build/COPYING</resource>
       <resource relative="true" mod="true" type="readme">aria2-build/README.asciidoc</resource>
+      <resource relative="true" mod="true" type="welcome">../../Library/Introduction</resource>
     </locale>
   </resources>
   <flags/>
-  <item type="file">01aria.xml</item>
+  <item type="file">01aria2.xml</item>
   <mod>properties.title</mod>
   <mod>description</mod>
 </pkmkdoc>
