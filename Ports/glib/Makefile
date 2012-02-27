@@ -7,6 +7,10 @@ RUDIX_UNIVERSAL=no
 include ../../Library/Rudix.mk
 include ../../Library/GNUFormula.mk
 
+ifdef WITH_STATIC_LIBS
+LdFlags += -framework CoreFoundation -liconv
+endif
+
 Title=		GLib
 Name=		glib
 Version=	2.28.8
