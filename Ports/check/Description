@@ -4,4 +4,4 @@ Site: http://check.sourceforge.net/
 License: LGPL
 
 Changes from previous release:
-* Rebuild on Xcode 4.3
+* Rebuild on Xcode 4.2
