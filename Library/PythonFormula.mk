@@ -7,8 +7,8 @@
 # Python versions
 #
 # Default
-Python = $(Python2.7)
-PythonSitePackages = $(PythonSitePackages2.7)
+Python = $(Python2.6)
+PythonSitePackages = $(PythonSitePackages2.6)
 # 2.7
 Python2.7 = /usr/bin/python2.7
 PythonSitePackages2.7 = /Library/Python/2.7/site-packages
