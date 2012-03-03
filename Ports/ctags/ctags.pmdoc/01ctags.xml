@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="DFAD4600-F842-11E0-8D06-D49A200B3D20">
+<pkgref spec="1.12" uuid="DD9CF630-61A1-11E1-B4AB-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.ctags</identifier>
     <version>5.8-3</version>
