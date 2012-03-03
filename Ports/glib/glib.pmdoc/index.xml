@@ -23,10 +23,12 @@ Changes from previous release:
       <pkgref id="org.rudix.pkg.glib"/>
     </choice>
   </contents>
-  <resources bg-scale="none" bg-align="topleft">
+  <resources bg-scale="none" bg-align="bottomleft">
     <locale lang="en">
+      <resource relative="true" mod="true" type="background">../../Library/rudix.png</resource>
       <resource relative="true" mod="true" type="license">glib-build/COPYING</resource>
       <resource relative="true" mod="true" type="readme">glib-build/README</resource>
+      <resource relative="true" mod="true" type="welcome">../../Library/Introduction</resource>
     </locale>
   </resources>
   <flags/>
