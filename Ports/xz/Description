@@ -2,3 +2,9 @@ XZ Utils is free general-purpose data compression software with high compression
 
 Site: http://tukaani.org/xz/
 License: GPL
+
+Changes from previous release:
+* Rebuild on Xcode 4.3
+
+Usage:
+$ /usr/local/bin/xz
