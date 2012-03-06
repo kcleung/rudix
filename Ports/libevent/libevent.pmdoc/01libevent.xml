@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="D6915F26-648E-11E1-96EB-D49A200B3D20">
+<pkgref spec="1.12" uuid="37A002B6-64C8-11E1-B12F-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.libevent</identifier>
     <version>2.0.17-0</version>

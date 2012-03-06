@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="86B87FA1-60B0-11E1-AE16-D49A200B3D20">
+<pkgref spec="1.12" uuid="E1327A72-60B1-11E1-8E5F-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.cadaver</identifier>
     <version>0.23.3-4</version>
