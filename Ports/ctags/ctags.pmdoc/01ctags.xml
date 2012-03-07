@@ -1,8 +1,12 @@
 <?xml version="1.0"?>
+<<<<<<< mine
 <pkgref spec="1.12" uuid="DD9CF630-61A1-11E1-B4AB-0017F22C0C04">
+=======
+<pkgref spec="1.12" uuid="65165C82-67EC-11E1-B822-D49A200B3D20">
+>>>>>>> theirs
   <config>
     <identifier>org.rudix.pkg.ctags</identifier>
-    <version>5.8-3</version>
+    <version>5.8-4</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
@@ -12,11 +16,11 @@
       <followSymbolicLinks/>
     </flags>
     <packageStore type="internal"/>
-    <mod>installTo</mod>
+    <mod>version</mod>
     <mod>installFrom.path</mod>
     <mod>identifier</mod>
+    <mod>installTo</mod>
     <mod>parent</mod>
-    <mod>version</mod>
   </config>
   <contents>
     <file-list>01ctags-contents.xml</file-list>

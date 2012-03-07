@@ -1,8 +1,12 @@
 <?xml version="1.0"?>
+<<<<<<< mine
 <pkgref spec="1.12" uuid="3376BFC8-61A2-11E1-9998-0017F22C0C04">
+=======
+<pkgref spec="1.12" uuid="A54D0CE3-67B3-11E1-B0A8-D49A200B3D20">
+>>>>>>> theirs
   <config>
     <identifier>org.rudix.pkg.dtach</identifier>
-    <version>0.8-7</version>
+    <version>0.8-8</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
@@ -12,11 +16,11 @@
       <followSymbolicLinks/>
     </flags>
     <packageStore type="internal"/>
-    <mod>installTo</mod>
+    <mod>version</mod>
     <mod>installFrom.path</mod>
     <mod>identifier</mod>
+    <mod>installTo</mod>
     <mod>parent</mod>
-    <mod>version</mod>
   </config>
   <contents>
     <file-list>01dtach-contents.xml</file-list>

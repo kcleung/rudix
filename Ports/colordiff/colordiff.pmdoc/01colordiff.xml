@@ -1,8 +1,12 @@
 <?xml version="1.0"?>
+<<<<<<< mine
 <pkgref spec="1.12" uuid="2EBB9554-61A1-11E1-BD74-0017F22C0C04">
+=======
+<pkgref spec="1.12" uuid="24718A97-67ED-11E1-8EB2-D49A200B3D20">
+>>>>>>> theirs
   <config>
     <identifier>org.rudix.pkg.colordiff</identifier>
-    <version>1.0.9-2</version>
+    <version>1.0.9-3</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
@@ -12,11 +16,11 @@
       <followSymbolicLinks/>
     </flags>
     <packageStore type="internal"/>
-    <mod>installTo</mod>
+    <mod>version</mod>
     <mod>installFrom.path</mod>
     <mod>identifier</mod>
+    <mod>installTo</mod>
     <mod>parent</mod>
-    <mod>version</mod>
   </config>
   <contents>
     <file-list>01colordiff-contents.xml</file-list>
