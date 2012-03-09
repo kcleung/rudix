@@ -1,24 +1,22 @@
-BuildRequires+=	/usr/local/lib/libevent.la
+#BuildRequires+=	/usr/local/lib/libevent.la
 
 include ../../Library/Config.mk
 include ../../Library/Rudix.mk
 include ../../Library/GNUFormula.mk
 
-Title=		tmux
-Name=		tmux
-Version=	1.6
+Title=		dovecot
+Name=		dovecot
+Version=	2.1.1
 Revision=	0
-URL=		http://downloads.sourceforge.net/tmux/
+URL=		http://dovecot.org/releases/2.1/
 Source=		$(Name)-$(Version).tar.gz
 
-ReadMeFile=	$(SourceDir)/NOTES
-LicenseFile=	LICENSE
+ReadMeFile=	$(SourceDir)/README
+LicenseFile=	$(SourceDir)/COPYING
 
-LdFlags += -lresolv
-
-ifeq ($(RUDIX_BUILD_WITH_STATIC_LIBS),yes)
-EnvExtra += LIBS="/usr/local/lib/libevent.a"
-endif
+#ifeq ($(RUDIX_BUILD_WITH_STATIC_LIBS),yes)
+#EnvExtra += LIBS="/usr/local/lib/libevent.a"
+#endif
 
 #define test_inner_hook
 #$(call test_universal)

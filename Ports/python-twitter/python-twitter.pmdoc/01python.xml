@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="97A1D797-697D-11E1-8E9D-D49A200B3D20">
+<pkgref spec="1.12" uuid="4E63A3BD-691A-11E1-A4D3-D49A200B3D20">
   <config>
-    <identifier>org.rudix.pkg.ncftp</identifier>
-    <version>3.2.5-1</version>
+    <identifier>org.rudix.pkg.python-twitter</identifier>
+    <version>0.8.2-0</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
-    <installFrom relative="true" mod="true">ncftp-install</installFrom>
+    <installFrom relative="true" mod="true">python-twitter-install</installFrom>
     <installTo>/</installTo>
     <flags>
       <followSymbolicLinks/>
@@ -19,7 +19,7 @@
     <mod>parent</mod>
   </config>
   <contents>
-    <file-list>01ncftp-contents.xml</file-list>
+    <file-list>01python-contents.xml</file-list>
     <filter>/CVS$</filter>
     <filter>/\.svn$</filter>
     <filter>/\.cvsignore$</filter>

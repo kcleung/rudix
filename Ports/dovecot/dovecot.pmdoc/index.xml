@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <pkmkdoc spec="1.12">
   <properties>
-    <title>libMemcached</title>
+    <title>dovecot</title>
     <organization>org.rudix</organization>
     <userSees ui="easy"/>
     <min-target os="3"/>
@@ -11,29 +11,29 @@
     <versions min-spec="1.000000"/>
     <scripts/>
   </distribution>
-  <description>libMemcached is designed to provide the greatest number of options to use Memcached.
+  <description>Dovecot is an open source IMAP and POP3 email server.
 
-Site: http://libmemcached.org/
-License: BSD
+Site: http://dovecot.org/
+License: MIT+LGPL
 
 Release Notes:
-* Upgraded to version 1.0.4
+* Featuring in Rudix
 </description>
   <contents>
-    <choice title="libmemcached-install" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="false">
-      <pkgref id="org.rudix.pkg.libmemcached"/>
+    <choice title="dovecot-install" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="false">
+      <pkgref id="org.rudix.pkg.dovecot"/>
     </choice>
   </contents>
   <resources bg-scale="none" bg-align="bottomleft">
     <locale lang="en">
       <resource relative="true" mod="true" type="background">../../Library/rudix.png</resource>
-      <resource relative="true" mod="true" type="license">libmemcached-build/COPYING</resource>
-      <resource relative="true" mod="true" type="readme">libmemcached-build/README</resource>
+      <resource relative="true" mod="true" type="license">dovecot-build/COPYING</resource>
+      <resource relative="true" mod="true" type="readme">dovecot-build/README</resource>
       <resource relative="true" mod="true" type="welcome">../../Library/Introduction</resource>
     </locale>
   </resources>
   <flags/>
-  <item type="file">01libmemcached.xml</item>
+  <item type="file">01dovecot.xml</item>
   <mod>properties.title</mod>
   <mod>description</mod>
 </pkmkdoc>
