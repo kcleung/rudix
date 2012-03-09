@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <pkmkdoc spec="1.12">
   <properties>
-    <title>GLib</title>
+    <title>httplib2 (Python Module)</title>
     <organization>org.rudix</organization>
     <userSees ui="easy"/>
     <min-target os="3"/>
@@ -11,29 +11,29 @@
     <versions min-spec="1.000000"/>
     <scripts/>
   </distribution>
-  <description>GLib provides the core application building blocks for libraries and applications written in C.
+  <description>A comprehensive HTTP client library that supports many features left out of other HTTP libraries.
 
-  * Site: http://www.gtk.org/
-  * License: GPL
+  * Site: http://code.google.com/p/httplib2/
+  * License: MIT
 
 Release Notes:
-  * Upgraded to version 0.28.8
+  * Featuring in Rudix
 </description>
   <contents>
-    <choice title="glib-install" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="false">
-      <pkgref id="org.rudix.pkg.glib"/>
+    <choice title="httplib2-install" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="false">
+      <pkgref id="org.rudix.pkg.httplib2"/>
     </choice>
   </contents>
   <resources bg-scale="none" bg-align="bottomleft">
     <locale lang="en">
       <resource relative="true" mod="true" type="background">../../Library/rudix.png</resource>
-      <resource relative="true" mod="true" type="license">glib-build/COPYING</resource>
-      <resource relative="true" mod="true" type="readme">glib-build/README</resource>
+      <resource relative="true" mod="true" type="license">httplib2-build/PKG-INFO</resource>
+      <resource relative="true" mod="true" type="readme">httplib2-build/README</resource>
       <resource relative="true" mod="true" type="welcome">../../Library/Introduction</resource>
     </locale>
   </resources>
   <flags/>
-  <item type="file">01glib.xml</item>
+  <item type="file">01httplib.xml</item>
   <mod>properties.title</mod>
   <mod>description</mod>
 </pkmkdoc>

@@ -1,20 +1,8 @@
 Colour-highlighted diff output.
 
-Site: http://colordiff.sourceforge.net/
-License: GPL
+  * Site: http://colordiff.sourceforge.net/
+  * License: GPL
 
-<<<<<<< mine
-Changes from previous release:
-* Rebuild
+Release Notes:
+  * Rebuild on Xcode 4.2
 
-=======
-Changes from previous release:
-* Rebuild on Xcode 4.3
-
->>>>>>> theirs
-Usage:
-<<<<<<< mine
-$ /usr/local/bin/colordiff
-=======
-/usr/local/bin/colordiff
->>>>>>> theirs
