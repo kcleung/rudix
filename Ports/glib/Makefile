@@ -4,6 +4,14 @@ include ../../Library/Config.mk
 include ../../Library/Rudix.mk
 include ../../Library/GNUFormula.mk
 
+ifdef WITH_STATIC_LIBS
+LdFlags += -framework CoreFoundation -liconv
+endif
+
+ifdef ONLY_STATIC_LIBS
+GnuConfigureExtra += --enable-static --disable-shared
+endif
+
 Title=		GLib
 Name=		glib
 Version=	2.28.8
