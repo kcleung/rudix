@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="D70BD5A6-00F4-11E1-84BD-D49A200B3D20">
+<pkgref spec="1.12" uuid="C6F586D8-61A4-11E1-B7A8-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.zsync</identifier>
     <version>0.6.2-4</version>

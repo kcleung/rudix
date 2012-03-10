@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="EBED3BB5-6564-11E1-8AB5-D49A200B3D20">
+<pkgref spec="1.12" uuid="47FADBB2-656E-11E1-8EC3-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.protobuf</identifier>
     <version>2.4.1-2</version>

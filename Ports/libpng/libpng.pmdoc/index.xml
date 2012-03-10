@@ -23,10 +23,12 @@ Changes:
       <pkgref id="org.rudix.pkg.libpng"/>
     </choice>
   </contents>
-  <resources bg-scale="none" bg-align="topleft">
+  <resources bg-scale="none" bg-align="bottomleft">
     <locale lang="en">
+      <resource relative="true" mod="true" type="background">../../Library/rudix.png</resource>
       <resource relative="true" mod="true" type="license">libpng-build/LICENSE</resource>
       <resource relative="true" mod="true" type="readme">libpng-build/README</resource>
+      <resource relative="true" mod="true" type="welcome">../../Library/Introduction</resource>
     </locale>
   </resources>
   <flags/>
