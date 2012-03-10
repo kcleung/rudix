@@ -3,15 +3,16 @@
 '''Rudix Package Manager -- RPM ;D
 
 Usage:
-rudix [help|version|list|remove-all|verify-all|update|interactive]
+rudix [help|version|available|list|remove-all|verify-all|update|interactive]
       [info <package-id>|files <package-id>|install <package-id>|remove <package-id>|search <package-id>|owner <path>|verify <package-id>|fix <package-id>]
 
-rudix [-h|-v|-l|-R|-K|-u|-z]
+rudix [-h|-v|-a|-l|-R|-K|-u|-z]
       [-I <package-id>|-L <package-id>|-i <package-id>|-r <package-id>|-s <package-id>|-S <path>|-V <package-id>|-f <package-id>|-n <package-id>]
 
 List all installed packages (package-id) unless options are given, like:
   -h    This help message
   -v    Print version
+  -a    List all packages available for installation (name-version-release)
   -l    List all installed packages (package-id, version and install date)
   -I    Print package information (package-id, version and install date)
   -L    List package content
@@ -35,8 +36,10 @@ import os
 import getopt
 import tempfile
 import re
+from StringIO import StringIO
+from gzip import GzipFile
 from subprocess import Popen, PIPE, call
-from urllib2 import urlopen
+from urllib2 import urlopen, Request
 from platform import mac_ver
 
 __author__ = 'Ruda Moura'
@@ -48,16 +51,17 @@ __version__ = '@VERSION@'
 PROGRAM_NAME = os.path.basename(sys.argv[0])
 PREFIX = 'org.rudix.pkg.'
 OSX_VERSION = [int(x) for x in mac_ver()[0].split('.')[0:2]] # (MAJOR, MINOR)
-
 RUDIX_NAMES = {
     (10, 6): 'rudix-snowleopard',
     (10, 7): 'rudix',
 }
 RUDIX = RUDIX_NAMES.get(tuple(OSX_VERSION), 'rudix')
+VERSION = 2012
 
 NAME_OPTS = {
     'help': '-h',
     'version': '-v',
+    'available': '-a',
     'list': '-l', 'ls': '-l', 'dir': '-l',
     'info': '-I', 'about': '-I',
     'install': '-i',
@@ -256,10 +260,51 @@ def version_compare(v1, v2):
     else:
         return v_cmp
 
-def get_versions_for_package(pkg):
+
+def _retrieve(url):
+    'Retrieve content from URL'
+    UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.53.11 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10'
+    request = Request(url)
+    request.add_header('Accept-Encoding', 'gzip')
+    request.add_header('User-Agent', UA)
+    response = urlopen(request)
+    if response.headers.get('content-encoding', '') == 'gzip':
+        buf = StringIO(response.read())
+        gz = GzipFile(fileobj=buf)
+        content = gz.read()
+    else:
+        content = response.read()
+    response.close()
+    return content
+
+def _retrieve_simple(url):
+    'Retrieve content from URL'
+    data = urlopen(url)
+    content = data.read()
+    return content
+
+def get_available_packages(rudix_version=VERSION, limit=1000):
+    '''Get available packages.
+    Return a list (ordered by release time, lastest first) of all packages available for installation.
+    Filters: rudix_version and limit.
+    '''
+    url = 'http://code.google.com/p/%s/downloads/list?q=Rudix:%d&num=%d&can=2' % (RUDIX, rudix_version, limit)
+    content = _retrieve(url)
+    packages = re.findall('%s.googlecode.com/files/(.*)(\.dmg|\.pkg)"' % RUDIX, content)
+    return packages
+
+def print_available_packages():
+    'Print all packages available for installation'
+    versions = get_available_packages()
+    for version in versions:
+        name = version[0]
+        print name
+
+def get_versions_for_package(pkg, rudix_version=VERSION, limit=10):
     'Get a list of available versions for package'
     pkg = denormalize(pkg)
-    content = urlopen('http://code.google.com/p/%s/downloads/list?q=Filename:%s' % (RUDIX, pkg)).read()
+    url = 'http://code.google.com/p/%s/downloads/list?q=Filename:%s+Rudix:%d&num=%d&can=2' % (RUDIX, pkg, rudix_version, limit)
+    content = _retrieve(url)
     urls = re.findall('(%s.googlecode.com/files/(%s-([\w.]+(?:-\d+)?(?:.i386)?)(\.dmg|\.pkg)))' % (RUDIX, pkg), content)
     versions = sorted(list(set(urls)),
                       cmp=lambda x, y: version_compare(x[2], y[2]))
@@ -368,7 +413,14 @@ def repl():
     rudix_version()
     while True:
         print ']',
-        line = raw_input().strip()
+        try:
+            line = raw_input().strip()
+        except KeyboardInterrupt:
+            print
+            return 0
+        except EOFError:
+            print
+            return 0
         if not line:
             continue
         if line in ['quit', 'exit', 'end', 'bye', 'halt']:
@@ -379,7 +431,7 @@ def repl():
 def process(args):
     'Process arguments and execute some action'
     try:
-        opts, args = getopt.getopt(args, "hI:lL:i:r:Rs:S:vV:Kf:n:uz")
+        opts, args = getopt.getopt(args, "ahI:lL:i:r:Rs:S:vV:Kf:n:uz")
     except getopt.error, msg:
         print >> sys.stderr, '%s: %s'%(PROGRAM_NAME, msg)
         print >> sys.stderr, '\t for help use -h or help'
@@ -392,6 +444,8 @@ def process(args):
         if option == '-v':
             rudix_version()
             return 0
+        if option == '-a':
+            print_available_packages()
         if option == '-I':
             print_package_info(normalize(value))
         if option == '-l':

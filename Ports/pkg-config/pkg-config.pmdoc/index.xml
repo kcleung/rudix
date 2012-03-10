@@ -13,14 +13,19 @@
   </distribution>
   <description>pkg-config is a helper tool used when compiling applications and libraries.
 
-Site: http://www.freedesktop.org/wiki/Software/pkg-config
-License: GPL
+  * Site: http://www.freedesktop.org/wiki/Software/pkg-config
+  * License: GPL
 
+<<<<<<< mine
 Changes from previous release:
 * Rebuild on Xcode 4.2
 
 Usage:
 $ /usr/local/bin/pkg-config
+=======
+Release Notes:
+  * Rebuld on Xcode 4.3
+>>>>>>> theirs
 </description>
   <contents>
     <choice title="pkg-config-install" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="false">
@@ -36,7 +41,7 @@ $ /usr/local/bin/pkg-config
     </locale>
   </resources>
   <flags/>
-  <item type="file">01pkg-config.xml</item>
+  <item type="file">01pkg.xml</item>
   <mod>properties.title</mod>
   <mod>description</mod>
 </pkmkdoc>

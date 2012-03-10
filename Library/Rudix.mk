@@ -4,7 +4,7 @@
 # Authors: Ruda Moura, Leonardo Santagada
 #
 
-BuildSystem = 20120307
+BuildSystem = 20120310
 
 Vendor = org.rudix
 UncompressedName = $(Name)-$(Version)
@@ -126,8 +126,8 @@ wiki:
 upload: pkg
 	@$(call info_color,Sending $(PkgFile))
 	../../Library/googlecode_upload.py -p rudix-snowleopard -s "$(Title)" -d Description -l $(RUDIX_LABELS) $(PkgFile)
-	echo hg tag -f $(DistName)-$(Version)-$(Revision)
-	echo twitter -erudix4mac set "$(Title): $(DistName)-$(Version)-$(Revision) http://code.google.com/p/rudix/downloads/detail?name=$(PkgFile)"
+	#hg tag -f $(DistName)-$(Version)-$(Revision)
+	#twitter -erudix4mac set "$(Title): $(DistName)-$(Version)-$(Revision) http://code.google.com/p/rudix/downloads/detail?name=$(PkgFile)"
 	@$(call info_color,Finished)
 
 help:
@@ -143,7 +143,10 @@ help:
 	@echo "  distclean - After clean, remove config.cache and package"
 	@echo "  realdistclean - After distclean, remove source"
 
-.PHONY: buildclean installclean pkgclean clean distclean realdistclean sanitizepmdoc wiki upload help
+about:
+	@echo "$(Name): $(Title) $(Version)-$(Revision)"
+
+.PHONY: buildclean installclean pkgclean clean distclean realdistclean sanitizepmdoc wiki upload help about
 
 #
 # Functions
