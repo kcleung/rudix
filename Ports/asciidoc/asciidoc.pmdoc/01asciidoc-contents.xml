@@ -16,6 +16,7 @@
           <f n="asciidoc.py" o="root" g="wheel" p="33277">
             <mod>mode</mod>
           </f>
+          <mod>mode</mod>
         </f>
         <f n="etc" o="root" g="wheel" p="16893">
           <f n="asciidoc" o="root" g="wheel" p="16893">
@@ -328,6 +329,7 @@
               </f>
               <mod>mode</mod>
             </f>
+            <mod>mode</mod>
           </f>
           <f n="man" o="root" g="wheel" p="16893">
             <f n="man1" o="root" g="wheel" p="16893">
@@ -337,9 +339,13 @@
               <f n="asciidoc.1" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
+              <mod>mode</mod>
             </f>
+            <mod>mode</mod>
           </f>
+          <mod>mode</mod>
         </f>
+        <mod>mode</mod>
       </f>
     </f>
   </f>
