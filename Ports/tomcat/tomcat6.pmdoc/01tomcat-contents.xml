@@ -1,10 +1,18 @@
 <?xml version="1.0"?>
 <pkg-contents spec="1.12">
-  <f n="apache-tomcat-install" o="ruda" g="staff" p="16877" pt="/Users/ruda/src/rudix.svn/Ports/tomcat/apache-tomcat-install" m="false" t="file">
+  <f n="tomcat6-install" o="root" g="staff" p="16877" pt="tomcat6-install" m="false" t="file">
     <f n="usr" o="root" g="wheel" p="16877">
-      <f n="local" o="root" g="wheel" p="16877">
+      <f n="local" o="root" g="wheel" p="16893">
+        <f n="bin" o="root" g="wheel" p="16893">
+          <f n="tomcat6-shutdown.sh" o="root" g="wheel" p="41396">
+            <mod>mode</mod>
+          </f>
+          <f n="tomcat6-startup.sh" o="root" g="wheel" p="41396">
+            <mod>mode</mod>
+          </f>
+        </f>
         <f n="lib" o="root" g="wheel" p="16893">
-          <f n="tomcat" o="root" g="wheel" p="16893">
+          <f n="tomcat6" o="root" g="wheel" p="16893">
             <f n="bin" o="root" g="wheel" p="16893">
               <f n="bootstrap.jar" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
@@ -18,6 +26,9 @@
               <f n="catalina.sh" o="root" g="wheel" p="33277">
                 <mod>mode</mod>
               </f>
+              <f n="commons-daemon-native.tar.gz" o="root" g="wheel" p="33204">
+                <mod>mode</mod>
+              </f>
               <f n="commons-daemon.jar" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
@@ -28,12 +39,6 @@
                 <mod>mode</mod>
               </f>
               <f n="digest.sh" o="root" g="wheel" p="33277">
-                <mod>mode</mod>
-              </f>
-              <f n="jsvc.tar.gz" o="root" g="wheel" p="33204">
-                <mod>mode</mod>
-              </f>
-              <f n="service.bat" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
               <f n="setclasspath.bat" o="root" g="wheel" p="33204">
@@ -58,12 +63,6 @@
                 <mod>mode</mod>
               </f>
               <f n="tomcat-native.tar.gz" o="root" g="wheel" p="33204">
-                <mod>mode</mod>
-              </f>
-              <f n="tomcat6.exe" o="root" g="wheel" p="33277">
-                <mod>mode</mod>
-              </f>
-              <f n="tomcat6w.exe" o="root" g="wheel" p="33277">
                 <mod>mode</mod>
               </f>
               <f n="tool-wrapper.bat" o="root" g="wheel" p="33204">
@@ -120,13 +119,13 @@
               <f n="catalina.jar" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
+              <f n="ecj-3.7.jar" o="root" g="wheel" p="33204">
+                <mod>mode</mod>
+              </f>
               <f n="el-api.jar" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
               <f n="jasper-el.jar" o="root" g="wheel" p="33204">
-                <mod>mode</mod>
-              </f>
-              <f n="jasper-jdt.jar" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
               <f n="jasper.jar" o="root" g="wheel" p="33204">
@@ -362,6 +361,9 @@
                   <f n="executor.html" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
                   </f>
+                  <f n="filter.html" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
                   <f n="globalresources.html" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
                   </f>
@@ -545,13 +547,28 @@
                   <mod>mode</mod>
                 </f>
                 <f n="tribes" o="root" g="wheel" p="16893">
+                  <f n="developers.html" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
                   <f n="faq.html" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="interceptors.html" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
                   </f>
                   <f n="introduction.html" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
                   </f>
+                  <f n="membership.html" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
                   <f n="setup.html" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="status.html" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="transport.html" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
                   </f>
                   <mod>mode</mod>
@@ -609,10 +626,10 @@
                     <mod>mode</mod>
                   </f>
                   <f n="chat" o="root" g="wheel" p="16893">
-                    <f n="chat.jsp" o="root" g="wheel" p="33204">
+                    <f n="index.jsp" o="root" g="wheel" p="33204">
                       <mod>mode</mod>
                     </f>
-                    <f n="chat.jsp.html" o="root" g="wheel" p="33204">
+                    <f n="index.jsp.html" o="root" g="wheel" p="33204">
                       <mod>mode</mod>
                     </f>
                     <f n="login.jsp" o="root" g="wheel" p="33204">
@@ -1585,6 +1602,12 @@
                 <mod>mode</mod>
               </f>
               <f n="host-manager" o="root" g="wheel" p="16893">
+                <f n="401.jsp" o="root" g="wheel" p="33204">
+                  <mod>mode</mod>
+                </f>
+                <f n="403.jsp" o="root" g="wheel" p="33204">
+                  <mod>mode</mod>
+                </f>
                 <f n="images" o="root" g="wheel" p="16893">
                   <f n="add.gif" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
@@ -1636,6 +1659,9 @@
                 <f n="401.jsp" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
+                <f n="403.jsp" o="root" g="wheel" p="33204">
+                  <mod>mode</mod>
+                </f>
                 <f n="images" o="root" g="wheel" p="16893">
                   <f n="add.gif" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
@@ -1672,16 +1698,19 @@
                   </f>
                   <mod>mode</mod>
                 </f>
-                <f n="sessionDetail.jsp" o="root" g="wheel" p="33204">
-                  <mod>mode</mod>
-                </f>
-                <f n="sessionsList.jsp" o="root" g="wheel" p="33204">
-                  <mod>mode</mod>
-                </f>
                 <f n="status.xsd" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
                 <f n="WEB-INF" o="root" g="wheel" p="16893">
+                  <f n="jsp" o="root" g="wheel" p="16893">
+                    <f n="sessionDetail.jsp" o="root" g="wheel" p="33204">
+                      <mod>mode</mod>
+                    </f>
+                    <f n="sessionsList.jsp" o="root" g="wheel" p="33204">
+                      <mod>mode</mod>
+                    </f>
+                    <mod>mode</mod>
+                  </f>
                   <f n="web.xml" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
                   </f>
@@ -1735,14 +1764,7 @@
             </f>
             <mod>mode</mod>
           </f>
-        </f>
-        <f n="sbin" o="root" g="wheel" p="16893">
-          <f n="tomcat-shutdown.sh" o="root" g="wheel" p="41396">
-            <mod>mode</mod>
-          </f>
-          <f n="tomcat-startup.sh" o="root" g="wheel" p="41396">
-            <mod>mode</mod>
-          </f>
+          <mod>mode</mod>
         </f>
       </f>
     </f>
