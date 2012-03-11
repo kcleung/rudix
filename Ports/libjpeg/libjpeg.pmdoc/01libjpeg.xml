@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="8467649E-18F2-11E1-B9C7-D49A200B3D20">
+<pkgref spec="1.12" uuid="07F8E3C4-6253-11E1-927D-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.libjpeg</identifier>
     <version>8c-1</version>
