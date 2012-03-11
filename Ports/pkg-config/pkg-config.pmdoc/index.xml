@@ -24,7 +24,11 @@ Usage:
 $ /usr/local/bin/pkg-config
 =======
 Release Notes:
+<<<<<<< mine
   * Rebuld on Xcode 4.3
+>>>>>>> theirs
+=======
+  * Upgraded to version 0.26
 >>>>>>> theirs
 </description>
   <contents>
