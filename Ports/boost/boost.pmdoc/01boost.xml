@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="6991C5CA-5FFA-11E1-BE44-D49A200B3D20">
+<pkgref spec="1.12" uuid="6650FDEC-6016-11E1-8F12-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.boost</identifier>
     <version>1.49.0-0</version>
