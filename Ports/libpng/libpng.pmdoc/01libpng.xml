@@ -1,8 +1,12 @@
 <?xml version="1.0"?>
+<<<<<<< mine
 <pkgref spec="1.12" uuid="258108C4-6256-11E1-8B19-0017F22C0C04">
+=======
+<pkgref spec="1.12" uuid="E635E8BD-6C53-11E1-8516-D49A200B3D20">
+>>>>>>> theirs
   <config>
     <identifier>org.rudix.pkg.libpng</identifier>
-    <version>1.5.6-0</version>
+    <version>1.5.9-0</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <pkmkdoc spec="1.12">
   <properties>
-    <title>OptiPNG</title>
+    <title>Paramiko</title>
     <organization>org.rudix</organization>
     <userSees ui="easy"/>
     <min-target os="3"/>
@@ -11,29 +11,29 @@
     <versions min-spec="1.000000"/>
     <scripts/>
   </distribution>
-  <description>OptiPNG is a PNG optimizer that recompresses image files to a smaller size, without losing any information.
+  <description>Paramiko is a module for python 2.2 that implements the SSH2 protocol for secure connections to remote machines.
 
-  * Site: http://optipng.sourceforge.net/
-  * License: zlib
+  * Site: http://www.lag.net/paramiko/
+  * License: LGPL
 
 Release Notes:
-  * Upgraded to version 0.7
+  * Featuring in Rudix
 </description>
   <contents>
-    <choice title="optipng-install" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="false">
-      <pkgref id="org.rudix.pkg.optipng"/>
+    <choice title="paramiko-install" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="false">
+      <pkgref id="org.rudix.pkg.paramiko"/>
     </choice>
   </contents>
   <resources bg-scale="none" bg-align="bottomleft">
     <locale lang="en">
       <resource relative="true" mod="true" type="background">../../Library/rudix.png</resource>
-      <resource relative="true" mod="true" type="license">optipng-build/LICENSE.txt</resource>
-      <resource relative="true" mod="true" type="readme">optipng-build/README.txt</resource>
+      <resource relative="true" mod="true" type="license">paramiko-build/LICENSE</resource>
+      <resource relative="true" mod="true" type="readme">paramiko-build/README</resource>
       <resource relative="true" mod="true" type="welcome">../../Library/Introduction</resource>
     </locale>
   </resources>
   <flags/>
-  <item type="file">01optipng.xml</item>
+  <item type="file">01paramiko.xml</item>
   <mod>properties.title</mod>
   <mod>description</mod>
 </pkmkdoc>

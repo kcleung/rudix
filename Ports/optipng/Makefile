@@ -1,23 +1,23 @@
+BuildRequires += $(LibDir)/libpng.la
 
 include ../../Library/Config.mk
+RUDIX_ENABLE_NLS=
 include ../../Library/Rudix.mk
-define gnu_configure
-./configure
-endef
 include ../../Library/GNUFormula.mk
 
-GnuMakeInstallExtra+= mandir=$(ManDir)
-
-Site=		http://optipng.sourceforge.net/
-License=	zlib
-Description=	OptiPNG is a PNG optimizer that recompresses image files to a smaller size, without losing any information.
 Title=		OptiPNG
 Name=		optipng
-Version=	0.6.5
-Revision=	2
-URL=		http://downloads.sourceforge.net/optipng/OptiPNG/optipng-0.6.5/
+Version=	0.7
+Revision=	0
+URL=		http://sourceforge.net/projects/optipng/files/OptiPNG/$(Name)-$(Version)/
 Source=		$(Name)-$(Version).tar.gz
 
 ReadMeFile=	$(BuildDir)/README.txt
 LicenseFile=	$(BuildDir)/LICENSE.txt
 
+GnuMakeInstallExtra+= mandir=$(ManDir)
+GnuConfigureExtra += --with-system-libpng
+
+define gnu_configure
+./configure $(GnuConfigureExtra)
+endef
