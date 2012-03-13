@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
+<<<<<<< mine
+<pkgref spec="1.12" uuid="8997C81C-61A1-11E1-AB24-0017F22C0C04">
+=======
 <pkgref spec="1.12" uuid="CB390E80-67EC-11E1-8058-D49A200B3D20">
+>>>>>>> theirs
   <config>
     <identifier>org.rudix.pkg.cscope</identifier>
     <version>15.7a-4</version>

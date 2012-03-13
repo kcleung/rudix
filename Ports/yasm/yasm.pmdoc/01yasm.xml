@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="1C9899E6-6CB2-11E1-811C-D49A200B3D20">
+<pkgref spec="1.12" uuid="8A8D72A4-6CB3-11E1-AC1C-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.yasm</identifier>
     <version>1.2.0-0</version>
