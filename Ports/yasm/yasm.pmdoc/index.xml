@@ -11,6 +11,7 @@
     <versions min-spec="1.000000"/>
     <scripts/>
   </distribution>
+<<<<<<< mine
   <description>Yasm is a complete rewrite of the NASM assembler under the &#x201C;new&#x201D; BSD License.
 
 Site: http://yasm.tortall.net/
@@ -22,6 +23,16 @@ Changes from previous release:
 Usage:
 $ yasm
 </description>
+=======
+  <description>Yasm is a complete rewrite of the NASM assembler under the &#x201C;new&#x201D; BSD License.
+
+  * Site: http://yasm.tortall.net/
+  * License: BSD
+
+Release Notes:
+  * Upgraded to version 1.2.0
+</description>
+>>>>>>> theirs
   <contents>
     <choice title="yasm-install" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="false">
       <pkgref id="org.rudix.pkg.yasm"/>
@@ -31,8 +42,13 @@ $ yasm
     <locale lang="en">
       <resource relative="true" mod="true" type="background">../../Library/rudix.png</resource>
       <resource relative="true" mod="true" type="license">yasm-build/COPYING</resource>
+<<<<<<< mine
       <resource relative="true" mod="true" type="readme">/Users/ruda/Downloads/rudix.hg/Ports/yasm/README</resource>
       <resource relative="true" mod="true" type="welcome">../../Library/Introduction</resource>
+=======
+      <resource relative="true" mod="true" type="readme">README</resource>
+      <resource relative="true" mod="true" type="welcome">../../Library/Introduction</resource>
+>>>>>>> theirs
     </locale>
   </resources>
   <flags/>

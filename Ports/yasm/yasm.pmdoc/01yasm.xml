@@ -1,8 +1,16 @@
 <?xml version="1.0"?>
+<<<<<<< mine
 <pkgref spec="1.12" uuid="65B5869C-61A5-11E1-9E2B-0017F22C0C04">
+=======
+<pkgref spec="1.12" uuid="1C9899E6-6CB2-11E1-811C-D49A200B3D20">
+>>>>>>> theirs
   <config>
     <identifier>org.rudix.pkg.yasm</identifier>
+<<<<<<< mine
     <version>1.1.0-3</version>
+=======
+    <version>1.2.0-0</version>
+>>>>>>> theirs
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
@@ -12,11 +20,11 @@
       <followSymbolicLinks/>
     </flags>
     <packageStore type="internal"/>
-    <mod>installTo</mod>
+    <mod>version</mod>
     <mod>installFrom.path</mod>
     <mod>identifier</mod>
+    <mod>installTo</mod>
     <mod>parent</mod>
-    <mod>version</mod>
   </config>
   <contents>
     <file-list>01yasm-contents.xml</file-list>
