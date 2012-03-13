@@ -13,14 +13,16 @@ URL=		http://pdos.csail.mit.edu/~baford/vm/release/
 Source=		$(Name)-$(Version).tar.bz2
 
 ReadMeFile=	$(SourceDir)/ADVENTURE
-LicenseFile=	$(PortDir)/LICENSE
+LicenseFile=	LICENSE
 
 BuildDir = $(Name)-build/src
 
-MakeExtra = libvx32/libvx32.a 9vx/9vx vxrun/vxrun
-MakeInstallExtra = prefix=$(InstallDir)$(Prefix)
+MakeExtra += 9vx/9vx vxrun/vxrun libvx32/libvx32.a
+MakeExtra += ARCH=i386
 
-define install_post_hook
+MakeInstallExtra += prefix=$(InstallDir)$(Prefix)
+
+define install_inner_hook
 install -d $(InstallDir)/$(LibDir)
 install -m 644 $(SourceDir)/src/libvx32/libvx32.a $(InstallDir)/$(LibDir)
 install -d $(InstallDir)/$(IncludeDir)/vx32
@@ -29,6 +31,7 @@ install -d $(InstallDir)/$(BinDir)
 install -m 755 $(SourceDir)/src/9vx/9vx $(InstallDir)/$(BinDir)
 install -m 755 $(SourceDir)/src/vxrun/vxrun $(InstallDir)/$(BinDir)
 install -m 755 $(SourceDir)/src/vxrun/vxrungcc $(InstallDir)/$(BinDir)
+install -d $(InstallDir)/$(DocDir)/vx32
 install -m 644 $(SourceDir)/ADVENTURE $(InstallDir)/$(DocDir)/vx32
 install -m 644 $(SourceDir)/doc/*.pdf $(InstallDir)/$(DocDir)/vx32
 endef

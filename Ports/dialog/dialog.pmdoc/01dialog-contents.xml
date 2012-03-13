@@ -44,18 +44,14 @@
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="be@latin" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="bg" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -83,9 +79,7 @@
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="da" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -169,9 +163,7 @@
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="hr" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -199,9 +191,7 @@
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="it" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -222,9 +212,7 @@
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="lt" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -238,27 +226,21 @@
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="mg" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="mk" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="ms" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -330,9 +312,7 @@
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="sk" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -353,9 +333,7 @@
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="sr" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -385,9 +363,7 @@
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="tr" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -415,9 +391,7 @@
                 <f n="dialog.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="zh_CN" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
