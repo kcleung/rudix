@@ -10,7 +10,7 @@ setup:
 	@$(call info_color,Starting tests)
 	sudo rudix remove dovecot
 	sudo rudix install dovecot-*.pkg
-	sudo killall dovecot
+	sudo killall dovecot || true
 
 daemon:
 	@$(call info_color,Testing dovecot daemon...)
