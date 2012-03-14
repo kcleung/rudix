@@ -4,4 +4,7 @@ Site: http://www.gnu.org/software/make/
 License: GPL
 
 Changes from previous release:
-* 
+* Rebuild on Xcode 4.2
+
+Usage:
+$ /usr/local/bin/make
