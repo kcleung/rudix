@@ -2,8 +2,8 @@
 <pkg-contents spec="1.12">
   <f n="lftp-install" o="root" g="staff" p="16877" pt="lftp-install" m="false" t="file">
     <f n="usr" o="root" g="wheel" p="16877">
-      <f n="local" o="root" g="wheel" p="16877">
-        <f n="bin" o="root" g="wheel" p="16877">
+      <f n="local" o="root" g="wheel" p="16893">
+        <f n="bin" o="root" g="wheel" p="16893">
           <f n="lftp" o="root" g="wheel" p="33277">
             <mod>mode</mod>
           </f>
@@ -18,7 +18,7 @@
         </f>
         <f n="lib" o="root" g="wheel" p="16893">
           <f n="lftp" o="root" g="wheel" p="16893">
-            <f n="4.2.3" o="root" g="wheel" p="16893">
+            <f n="4.3.5" o="root" g="wheel" p="16893">
               <f n="cmd-mirror.so" o="root" g="wheel" p="33277">
                 <mod>mode</mod>
               </f>
@@ -49,14 +49,9 @@
               <f n="proto-sftp.so" o="root" g="wheel" p="33277">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
-            <mod>mode</mod>
           </f>
           <f n="liblftp-jobs.0.dylib" o="root" g="wheel" p="33277">
-            <mod>mode</mod>
-          </f>
-          <f n="liblftp-jobs.a" o="root" g="wheel" p="33204">
             <mod>mode</mod>
           </f>
           <f n="liblftp-jobs.dylib" o="root" g="wheel" p="41469">
@@ -66,9 +61,6 @@
             <mod>mode</mod>
           </f>
           <f n="liblftp-tasks.0.dylib" o="root" g="wheel" p="33277">
-            <mod>mode</mod>
-          </f>
-          <f n="liblftp-tasks.a" o="root" g="wheel" p="33204">
             <mod>mode</mod>
           </f>
           <f n="liblftp-tasks.dylib" o="root" g="wheel" p="41469">
@@ -117,7 +109,6 @@
               <f n="TODO" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
           </f>
           <f n="lftp" o="root" g="wheel" p="16893">
@@ -133,7 +124,6 @@
             <f n="verify-file" o="root" g="wheel" p="33277">
               <mod>mode</mod>
             </f>
-            <mod>mode</mod>
           </f>
           <f n="locale" o="root" g="wheel" p="16893">
             <f n="cs" o="root" g="wheel" p="16893">
