@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="8814AD94-6E43-11E1-96FC-D49A200B3D20">
+<pkgref spec="1.12" uuid="251AEE45-6E3F-11E1-A5D6-D49A200B3D20">
   <config>
-    <identifier>org.rudix.pkg.mpg123</identifier>
-    <version>1.13.6-0</version>
+    <identifier>org.rudix.pkg.gperftools</identifier>
+    <version>2.0-0</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
-    <installFrom relative="true" mod="true">mpg123-install</installFrom>
+    <installFrom relative="true" mod="true">gperftools-install</installFrom>
     <installTo>/</installTo>
     <flags>
       <followSymbolicLinks/>
@@ -19,7 +19,7 @@
     <mod>parent</mod>
   </config>
   <contents>
-    <file-list>01mpg-contents.xml</file-list>
+    <file-list>01gperftools-contents.xml</file-list>
     <filter>/CVS$</filter>
     <filter>/\.svn$</filter>
     <filter>/\.cvsignore$</filter>
