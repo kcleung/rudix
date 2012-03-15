@@ -1,13 +1,5 @@
 <?xml version="1.0"?>
-<<<<<<< mine
-<<<<<<< mine
-<pkgref spec="1.12" uuid="07336654-6E23-11E1-82D8-0017F22C0C04">
-=======
-<pkgref spec="1.12" uuid="2D524F6E-6E23-11E1-86E1-D49A200B3D20">
->>>>>>> theirs
-=======
-<pkgref spec="1.12" uuid="BCC7C0C0-6E44-11E1-9B39-D49A200B3D20">
->>>>>>> theirs
+<pkgref spec="1.12" uuid="8D7D0BB2-6E45-11E1-9E8B-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.httptunnel</identifier>
     <version>3.3-3</version>
