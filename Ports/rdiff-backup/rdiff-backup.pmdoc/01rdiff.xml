@@ -1,29 +1,25 @@
 <?xml version="1.0"?>
-<<<<<<< mine
-<pkgref spec="1.12" uuid="07F8E3C4-6253-11E1-927D-0017F22C0C04">
-=======
-<pkgref spec="1.12" uuid="73FB8BD7-7155-11E1-BC24-D49A200B3D20">
->>>>>>> theirs
+<pkgref spec="1.12" uuid="7AEC4968-6FDA-11E1-9768-D49A200B3D20">
   <config>
-    <identifier>org.rudix.pkg.libjpeg</identifier>
-    <version>8d-0</version>
+    <identifier>org.rudix.pkg.rdiff-backup</identifier>
+    <version>1.2.8-3</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
-    <installFrom relative="true" mod="true">libjpeg-install</installFrom>
+    <installFrom relative="true" mod="true">rdiff-backup-install</installFrom>
     <installTo>/</installTo>
     <flags>
       <followSymbolicLinks/>
     </flags>
     <packageStore type="internal"/>
-    <mod>installTo</mod>
+    <mod>version</mod>
     <mod>installFrom.path</mod>
     <mod>identifier</mod>
+    <mod>installTo</mod>
     <mod>parent</mod>
-    <mod>version</mod>
   </config>
   <contents>
-    <file-list>01libjpeg-contents.xml</file-list>
+    <file-list>01rdiff-contents.xml</file-list>
     <filter>/CVS$</filter>
     <filter>/\.svn$</filter>
     <filter>/\.cvsignore$</filter>
