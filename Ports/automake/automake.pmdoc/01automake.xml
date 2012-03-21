@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="917240C5-5FEB-11E1-A54A-D49A200B3D20">
+<pkgref spec="1.12" uuid="2E0A97AC-5FFA-11E1-B265-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.automake</identifier>
     <version>1.11.3-0</version>
