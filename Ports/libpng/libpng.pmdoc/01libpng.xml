@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="E635E8BD-6C53-11E1-8516-D49A200B3D20">
+<pkgref spec="1.12" uuid="E7C9BF32-715D-11E1-A89A-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.libpng</identifier>
     <version>1.5.9-0</version>
