@@ -30,7 +30,6 @@
               <f n="asciidoc-dblatex.xsl" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="docbook-xsl" o="root" g="wheel" p="16893">
               <f n="chunked.xsl" o="root" g="wheel" p="33204">
@@ -57,7 +56,6 @@
               <f n="xhtml.xsl" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="docbook45.conf" o="root" g="wheel" p="33204">
               <mod>mode</mod>
@@ -70,7 +68,6 @@
                 <f n="code-filter.py" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="graphviz" o="root" g="wheel" p="16893">
                 <f n="graphviz-filter.conf" o="root" g="wheel" p="33204">
@@ -79,7 +76,6 @@
                 <f n="graphviz2png.py" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="latex" o="root" g="wheel" p="16893">
                 <f n="latex-filter.conf" o="root" g="wheel" p="33204">
@@ -88,7 +84,6 @@
                 <f n="latex2png.py" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="music" o="root" g="wheel" p="16893">
                 <f n="music-filter.conf" o="root" g="wheel" p="33204">
@@ -97,15 +92,12 @@
                 <f n="music2png.py" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="source" o="root" g="wheel" p="16893">
                 <f n="source-highlight-filter.conf" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="help.conf" o="root" g="wheel" p="33204">
               <mod>mode</mod>
@@ -164,7 +156,6 @@
                   <f n="9.png" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="caution.png" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
@@ -199,9 +190,7 @@
                 <f n="warning.png" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="javascripts" o="root" g="wheel" p="16893">
               <f n="asciidoc.js" o="root" g="wheel" p="33204">
@@ -219,7 +208,6 @@
               <f n="toc.js" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="lang-de.conf" o="root" g="wheel" p="33204">
               <mod>mode</mod>
@@ -276,7 +264,6 @@
               <f n="xhtml11-quirks.css" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="text.conf" o="root" g="wheel" p="33204">
               <mod>mode</mod>
@@ -286,15 +273,12 @@
                 <f n="flask.css" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="volnitsky" o="root" g="wheel" p="16893">
                 <f n="volnitsky.css" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="wordpress.conf" o="root" g="wheel" p="33204">
               <mod>mode</mod>
@@ -305,9 +289,7 @@
             <f n="xhtml11.conf" o="root" g="wheel" p="33204">
               <mod>mode</mod>
             </f>
-            <mod>mode</mod>
           </f>
-          <mod>mode</mod>
         </f>
         <f n="share" o="root" g="wheel" p="16893">
           <f n="doc" o="root" g="wheel" p="16893">
@@ -327,7 +309,6 @@
               <f n="README.txt" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <mod>mode</mod>
           </f>

@@ -1,11 +1,9 @@
-include ../../Library/Config.mk
-include ../../Library/Rudix.mk
-include ../../Library/GNUFormula.mk
+include ../../Library/GNU.mk
 
 Title=		GNU Bash
 Name=		bash
 Version=	4.2
-Revision=	2
+Revision=	3
 URL=		http://ftp.gnu.org/gnu/bash/
 Source=		bash-$(Version).tar.gz
 
@@ -19,4 +17,8 @@ cd $(InstallDir)$(BinDir) ; ln -sf bash bash4
 cd $(InstallDir)$(Prefix)/share/man/man1 ; ln -sf bash.1 bash4.1
 install -m 644 $(SourceDir)/{COMPAT,POSIX,RBASH,Y2K} $(InstallDir)/$(DocDir)/$(Name)
 chmod 755 $(InstallDir)$(BinDir)/bashbug
+endef
+
+define final_inner_hook
+/usr/local/bin/bash --version
 endef

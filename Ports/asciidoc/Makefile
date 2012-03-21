@@ -1,12 +1,10 @@
-include ../../Library/Config.mk
-include ../../Library/Rudix.mk
-include ../../Library/GNUFormula.mk
+include ../../Library/GNU.mk
 
 Title=		AsciiDoc
 Name=		asciidoc
-Version=	8.6.6
-Revision=	1
-URL=		http://downloads.sourceforge.net/$(Name)
+Version=	8.6.7
+Revision=	0
+URL=		http://sourceforge.net/projects/asciidoc/files/asciidoc/$(Version)/
 Source=		$(Name)-$(Version).tar.gz
 
 ReadMeFile=	$(BuildDir)/README
@@ -20,4 +18,8 @@ endef
 # Do nothing
 define test_inner_hook
 echo Nothing to test here
+endef
+
+define final_inner_hook
+/usr/local/bin/asciidoc
 endef

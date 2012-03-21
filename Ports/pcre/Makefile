@@ -1,10 +1,8 @@
-include ../../Library/Config.mk
-include ../../Library/Rudix.mk
-include ../../Library/GNUFormula.mk
+include ../../Library/GNU.mk
 
 Title=		PCRE
 Name=		pcre
-Version=	8.21
+Version=	8.30
 Revision=	0
 URL=		ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/
 Source=		$(Name)-$(Version).tar.bz2
@@ -16,4 +14,9 @@ GnuConfigureExtra += --enable-utf8
 
 define test_post_hook
 cd $(SourceDir) ; ./RunTest
+endef
+
+define final_inner_hook
+/usr/local/bin/pcre-config --version
+/usr/local/bin/pcregrep Version Makefile
 endef
