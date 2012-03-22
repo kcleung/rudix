@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
-<<<<<<< mine
-<pkgref spec="1.12" uuid="33F0CA20-6003-11E1-8F0E-0017F22C0C04">
-=======
-<pkgref spec="1.12" uuid="DD39D766-7359-11E1-ADA4-D49A200B3D20">
->>>>>>> theirs
+<pkgref spec="1.12" uuid="143B82E0-73B5-11E1-B55C-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.bzr</identifier>
     <version>2.5.0-0</version>
