@@ -151,7 +151,7 @@ wiki:
 		../../Library/mkwikipage.py
 	@mv -vf *.wiki ../../Wiki/
 
-upload: pkg
+upload: pkg final
 	@$(call info_color,Sending $(PkgFile))
 	../../Library/googlecode_upload.py -p rudix-snowleopard -s "$(Title)" -d Description -l $(RUDIX_LABELS) $(PkgFile)
 	#hg tag -f $(DistName)-$(Version)-$(Revision)
