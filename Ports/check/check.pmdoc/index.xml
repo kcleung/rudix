@@ -17,7 +17,7 @@ Site: http://check.sourceforge.net/
 License: LGPL
 
 Changes from previous release:
-* Rebuild on Xcode 4.3
+* Rebuild on Xcode 4.2
 </description>
   <contents>
     <choice title="check-install" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="false">
