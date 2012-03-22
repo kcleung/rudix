@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="373C55C5-66E2-11E1-B271-D49A200B3D20">
+<pkgref spec="1.12" uuid="507425E8-671A-11E1-9BA1-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.pycurl</identifier>
     <version>7.19.0-1</version>
