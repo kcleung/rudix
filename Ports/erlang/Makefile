@@ -22,7 +22,7 @@ $(fetch) $(URL)/otp_doc_man_$(Version).tar.gz
 endef
 
 #GnuConfigureExtra += --enable-darwin-universal
-GnuConfigureExtra += --enable-darwin-64bit
+#GnuConfigureExtra += --enable-darwin-64bit
 
 define install_post_hook
 tar -zxf $(PortDir)/otp_doc_man_$(Version).tar.gz -C \
