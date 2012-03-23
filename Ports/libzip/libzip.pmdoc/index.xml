@@ -13,7 +13,7 @@
   </distribution>
   <description>libzip is a C library for reading, creating, and modifying zip archives.
 
-<<<<<<< mine
+&lt;&lt;&lt;&lt;&lt;&lt;&lt; mine
 Site: http://nih.at/libzip/
 License: BSD
 
@@ -22,7 +22,7 @@ Changes from previous release:
 =======
   * Site: http://nih.at/libzip/
   * License: BSD
->>>>>>> theirs
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; theirs
 
 Release Notes:
   * Upgraded to version 0.10.1
