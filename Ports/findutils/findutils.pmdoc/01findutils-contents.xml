@@ -46,6 +46,7 @@
           <f n="gnufrcode" o="root" g="wheel" p="33277">
             <mod>mode</mod>
           </f>
+          <mod>mode</mod>
         </f>
         <f n="share" o="root" g="wheel" p="16893">
           <f n="doc" o="root" g="wheel" p="16893">
@@ -231,7 +232,9 @@
                 <f n="findutils.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
+                <mod>mode</mod>
               </f>
+              <mod>mode</mod>
             </f>
             <f n="lt" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -294,9 +297,7 @@
                 <f n="findutils.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="sk" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -400,7 +401,9 @@
             </f>
           </f>
         </f>
-        <f n="var" o="root" g="wheel" p="16893"/>
+        <f n="var" o="root" g="wheel" p="16893">
+          <mod>mode</mod>
+        </f>
       </f>
     </f>
   </f>

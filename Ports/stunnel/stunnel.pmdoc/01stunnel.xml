@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="2173EBA1-6CA3-11E1-83AB-D49A200B3D20">
+<pkgref spec="1.12" uuid="1D540C5C-6CA9-11E1-B0B3-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.stunnel</identifier>
     <version>4.52-0</version>
