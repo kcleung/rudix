@@ -4,4 +4,5 @@ Check: A unit testing framework for C.
   * License: LGPL
 
 Release Notes:
-  * Rebuild on Xcode 4.3
+  * Rebuild on Xcode 4.2
+
