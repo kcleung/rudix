@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="A6ABC60C-75D7-11E1-B4F2-D49A200B3D20">
+<pkgref spec="1.12" uuid="61D0748C-75D8-11E1-9B0D-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.libsigc++</identifier>
     <version>2.2.10-0</version>
