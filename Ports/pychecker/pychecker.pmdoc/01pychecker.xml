@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="5FCAF35E-72FB-11E1-B80B-D49A200B3D20">
+<pkgref spec="1.12" uuid="C6F48288-72FC-11E1-B098-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.pychecker</identifier>
     <version>0.8.19-1</version>
