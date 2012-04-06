@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="823A0117-5B2A-11E1-8E88-D49A200B3D20">
+<pkgref spec="1.12" uuid="5646DFFE-620D-11E1-B3FA-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.iperf</identifier>
     <version>2.0.5-1</version>
