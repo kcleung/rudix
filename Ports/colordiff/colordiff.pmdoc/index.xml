@@ -16,11 +16,21 @@
 Site: http://colordiff.sourceforge.net/
 License: GPL
 
+<<<<<<< mine
+Changes from previous release:
+* Rebuild
+
+=======
 Changes from previous release:
 * Rebuild on Xcode 4.3
 
+>>>>>>> theirs
 Usage:
+<<<<<<< mine
+$ /usr/local/bin/colordiff
+=======
 /usr/local/bin/colordiff
+>>>>>>> theirs
 </description>
   <contents>
     <choice title="colordiff-install" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="false">

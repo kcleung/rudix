@@ -17,7 +17,7 @@ Site: http://frotz.sourceforge.net/
 License: GPL
 
 Changes from previous release:
-* Rebuild on Xcode 4.3
+* Rebuild on Xcode 4.2
 
 Usage:
 /usr/local/bin/frotz

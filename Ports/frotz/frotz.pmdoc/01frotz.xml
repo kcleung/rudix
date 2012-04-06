@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="D1A4CF38-6802-11E1-977D-D49A200B3D20">
+<pkgref spec="1.12" uuid="673C0646-6842-11E1-B03D-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.frotz</identifier>
     <version>2.43-6</version>

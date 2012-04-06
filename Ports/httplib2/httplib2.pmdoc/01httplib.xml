@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="6BCAB091-6A2F-11E1-96B6-D49A200B3D20">
+<pkgref spec="1.12" uuid="1B429AC2-6A43-11E1-A066-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.httplib2</identifier>
     <version>0.7.4-0</version>
