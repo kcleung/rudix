@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="88BA2161-75CC-11E1-BFDD-D49A200B3D20">
+<pkgref spec="1.12" uuid="ED483308-75CC-11E1-BEF7-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.popt</identifier>
     <version>1.16-0</version>

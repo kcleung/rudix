@@ -26,6 +26,7 @@
               <f n="README" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
+              <mod>mode</mod>
             </f>
           </f>
           <f n="figlet" o="root" g="wheel" p="16893">
@@ -200,6 +201,7 @@
             <f n="utf8.flc" o="root" g="wheel" p="33204">
               <mod>mode</mod>
             </f>
+            <mod>mode</mod>
           </f>
           <f n="man" o="root" g="wheel" p="16893">
             <f n="man6" o="root" g="wheel" p="16893">

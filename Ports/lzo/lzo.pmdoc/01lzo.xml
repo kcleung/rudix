@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="A5334487-75A2-11E1-89B5-D49A200B3D20">
+<pkgref spec="1.12" uuid="721C93AE-75A4-11E1-A680-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.lzo</identifier>
     <version>2.06-1</version>
