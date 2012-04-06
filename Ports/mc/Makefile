@@ -1,7 +1,7 @@
-BuildRequires += $(BinDir)/pkg-config
-BuildRequires += $(LibDir)/libintl.la
-BuildRequires += $(LibDir)/libglib-2.0.la
-BuildRequires += $(LibDir)/libgmodule-2.0.la
+#BuildRequires += $(BinDir)/pkg-config
+#BuildRequires += $(LibDir)/libintl.la
+#BuildRequires += $(LibDir)/libglib-2.0.la
+#BuildRequires += $(LibDir)/libgmodule-2.0.la
 
 include ../../Library/GNU.mk
 
