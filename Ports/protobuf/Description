@@ -4,4 +4,4 @@ Site: http://code.google.com/p/protobuf/
 License: BSD
 
 Changes from previous release:
-* Rebuild on Xcode 4.3
+* Rebuild on Xcode 4.2
