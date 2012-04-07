@@ -21,6 +21,7 @@
             </f>
             <mod>mode</mod>
           </f>
+          <mod>mode</mod>
         </f>
         <f n="lib" o="root" g="wheel" p="16893">
           <f n="stunnel" o="root" g="wheel" p="16893">
