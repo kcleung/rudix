@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
-<<<<<<< local
-<pkgref spec="1.12" uuid="77F5C76E-7158-11E1-9757-0017F22C0C04">
-=======
-<pkgref spec="1.12" uuid="89998B9C-80E7-11E1-8E52-D49A200B3D20">
->>>>>>> other
+<pkgref spec="1.12" uuid="31710128-80E9-11E1-BACB-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.rdiff-backup</identifier>
     <version>1.2.8-4</version>
