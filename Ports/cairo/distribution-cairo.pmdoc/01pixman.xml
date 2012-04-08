@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="9F403F21-8123-11E1-93BA-D49A200B3D20">
+<pkgref spec="1.12" uuid="53028951-811A-11E1-9A9D-D49A200B3D20">
   <config>
-    <identifier>org.rudix.pkg.cairo</identifier>
-    <version>1.12.0-0</version>
+    <identifier>org.rudix.pkg.pixman</identifier>
+    <version>0.24.4-1</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
-    <installFrom relative="true" mod="true">cairo-install</installFrom>
+    <installFrom relative="true" mod="true">../pixman/pixman-install</installFrom>
     <installTo>/</installTo>
     <flags>
       <followSymbolicLinks/>
@@ -19,7 +19,7 @@
     <mod>parent</mod>
   </config>
   <contents>
-    <file-list>01cairo-contents.xml</file-list>
+    <file-list>../pixman/pixman.pmdoc/01pixman-contents.xml</file-list>
     <filter>/CVS$</filter>
     <filter>/\.svn$</filter>
     <filter>/\.cvsignore$</filter>
