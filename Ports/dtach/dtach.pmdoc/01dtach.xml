@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
+<<<<<<< mine
+<pkgref spec="1.12" uuid="3376BFC8-61A2-11E1-9998-0017F22C0C04">
+=======
 <pkgref spec="1.12" uuid="A54D0CE3-67B3-11E1-B0A8-D49A200B3D20">
+>>>>>>> theirs
   <config>
     <identifier>org.rudix.pkg.dtach</identifier>
     <version>0.8-8</version>

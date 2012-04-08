@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="69ED9935-6E19-11E1-B67A-D49A200B3D20">
+<pkgref spec="1.12" uuid="C685216E-6E23-11E1-9F3E-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.libev</identifier>
     <version>4.11-2</version>
