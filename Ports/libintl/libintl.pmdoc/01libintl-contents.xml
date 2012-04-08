@@ -21,31 +21,20 @@
           <f n="libintl.h" o="root" g="wheel" p="33204">
             <mod>mode</mod>
           </f>
-<<<<<<< local
-          <mod>mode</mod>
-=======
->>>>>>> other
         </f>
         <f n="lib" o="root" g="wheel" p="16893">
           <f n="libintl.8.dylib" o="root" g="wheel" p="33204">
             <mod>mode</mod>
           </f>
-<<<<<<< local
-=======
           <f n="libintl.a" o="root" g="wheel" p="33204">
             <mod>mode</mod>
           </f>
->>>>>>> other
           <f n="libintl.dylib" o="root" g="wheel" p="41396">
             <mod>mode</mod>
           </f>
           <f n="libintl.la" o="root" g="wheel" p="33204">
             <mod>mode</mod>
           </f>
-<<<<<<< local
-          <mod>mode</mod>
-=======
->>>>>>> other
         </f>
         <f n="share" o="root" g="wheel" p="16893">
           <f n="doc" o="root" g="wheel" p="16893">

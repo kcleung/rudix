@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
-<<<<<<< local
-<pkgref spec="1.12" uuid="EEFCCB0A-8035-11E1-97CF-0017F22C0C04">
-=======
-<pkgref spec="1.12" uuid="3AC2C21C-8115-11E1-AA32-D49A200B3D20">
->>>>>>> other
+<pkgref spec="1.12" uuid="C6E816A0-8117-11E1-BED4-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.libintl</identifier>
     <version>0.18.1.1-6</version>
