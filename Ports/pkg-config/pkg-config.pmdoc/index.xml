@@ -16,8 +16,20 @@
   * Site: http://www.freedesktop.org/wiki/Software/pkg-config
   * License: GPL
 
+<<<<<<< mine
+Changes from previous release:
+* Rebuild on Xcode 4.2
+
+Usage:
+$ /usr/local/bin/pkg-config
+=======
 Release Notes:
+<<<<<<< mine
+  * Rebuld on Xcode 4.3
+>>>>>>> theirs
+=======
   * Upgraded to version 0.26
+>>>>>>> theirs
 </description>
   <contents>
     <choice title="pkg-config-install" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="false">

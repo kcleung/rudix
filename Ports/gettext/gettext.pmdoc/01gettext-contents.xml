@@ -70,7 +70,6 @@
           <f n="xgettext" o="root" g="wheel" p="33277">
             <mod>mode</mod>
           </f>
-          <mod>mode</mod>
         </f>
         <f n="include" o="root" g="wheel" p="16893">
           <f n="autosprintf.h" o="root" g="wheel" p="33204">
@@ -82,7 +81,6 @@
           <f n="libintl.h" o="root" g="wheel" p="33204">
             <mod>mode</mod>
           </f>
-          <mod>mode</mod>
         </f>
         <f n="lib" o="root" g="wheel" p="16893">
           <f n="gettext" o="root" g="wheel" p="16893">
@@ -98,7 +96,6 @@
             <f n="user-email" o="root" g="wheel" p="33277">
               <mod>mode</mod>
             </f>
-            <mod>mode</mod>
           </f>
           <f n="libasprintf.0.dylib" o="root" g="wheel" p="33277">
             <mod>mode</mod>
@@ -160,7 +157,6 @@
           <f n="libintl.la" o="root" g="wheel" p="33204">
             <mod>mode</mod>
           </f>
-          <mod>mode</mod>
         </f>
         <f n="share" o="root" g="wheel" p="16893">
           <f n="aclocal" o="root" g="wheel" p="16893">
@@ -257,7 +253,6 @@
             <f n="xsize.m4" o="root" g="wheel" p="33204">
               <mod>mode</mod>
             </f>
-            <mod>mode</mod>
           </f>
           <f n="doc" o="root" g="wheel" p="16893">
             <f n="gettext" o="root" g="wheel" p="16893">
@@ -301,7 +296,6 @@
                 <f n="namespaces.html" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="envsubst.1.html" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
@@ -423,9 +417,7 @@
                     <f n="package-tree.html" o="root" g="wheel" p="33204">
                       <mod>mode</mod>
                     </f>
-                    <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="help-doc.html" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
@@ -451,7 +443,6 @@
                 <f n="stylesheet.css" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="msgattrib.1.html" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
@@ -522,15 +513,12 @@
               <f n="xgettext.1.html" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="libasprintf" o="root" g="wheel" p="16893">
               <f n="autosprintf_all.html" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
-            <mod>mode</mod>
           </f>
           <f n="emacs" o="root" g="wheel" p="16893">
             <f n="site-lisp" o="root" g="wheel" p="16893">
@@ -552,9 +540,7 @@
               <f n="start-po.elc" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
-            <mod>mode</mod>
           </f>
           <f n="gettext" o="root" g="wheel" p="16893">
             <f n="ABOUT-NLS" o="root" g="wheel" p="33204">
@@ -768,7 +754,6 @@
               <f n="xsize.h" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="javaversion.class" o="root" g="wheel" p="33204">
               <mod>mode</mod>
@@ -807,7 +792,6 @@
               <f n="Rules-quot" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="projects" o="root" g="wheel" p="16893">
               <f n="GNOME" o="root" g="wheel" p="16893">
@@ -823,7 +807,6 @@
                 <f n="trigger" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="index" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
@@ -841,7 +824,6 @@
                 <f n="trigger" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="team-address" o="root" g="wheel" p="33277">
                 <mod>mode</mod>
@@ -859,9 +841,7 @@
                 <f n="trigger" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="styles" o="root" g="wheel" p="16893">
               <f n="po-default.css" o="root" g="wheel" p="33204">
@@ -882,9 +862,7 @@
               <f n="po-vim.css" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
-            <mod>mode</mod>
           </f>
           <f n="info" o="root" g="wheel" p="16893">
             <f n="autosprintf.info" o="root" g="wheel" p="33204">
@@ -893,7 +871,6 @@
             <f n="gettext.info" o="root" g="wheel" p="33204">
               <mod>mode</mod>
             </f>
-            <mod>mode</mod>
           </f>
           <f n="locale" o="root" g="wheel" p="16893">
             <f n="be" o="root" g="wheel" p="16893">
@@ -904,9 +881,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="bg" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -916,9 +891,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="ca" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -928,9 +901,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="cs" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -940,9 +911,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="da" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -952,9 +921,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="de" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -964,9 +931,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="el" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -976,9 +941,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="en@boldquot" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -988,9 +951,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="en@quot" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1000,18 +961,14 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="eo" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
                 <f n="gettext-runtime.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="es" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1021,9 +978,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="et" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1033,18 +988,14 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="eu" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="fi" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1054,9 +1005,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="fr" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1066,18 +1015,14 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="ga" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
                 <f n="gettext-runtime.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="gl" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1087,9 +1032,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="id" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1099,9 +1042,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="it" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1111,9 +1052,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="ja" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1123,9 +1062,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="ko" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1135,9 +1072,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="nb" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1147,9 +1082,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="nl" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1159,9 +1092,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="nn" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1171,9 +1102,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="pl" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1183,9 +1112,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="pt" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1195,9 +1122,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="pt_BR" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1207,9 +1132,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="ro" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1219,9 +1142,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="ru" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1231,9 +1152,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="sk" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1243,9 +1162,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="sl" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1255,9 +1172,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="sr" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1267,9 +1182,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="sv" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1279,9 +1192,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="tr" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1291,9 +1202,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="uk" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1303,9 +1212,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="vi" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1315,9 +1222,7 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="zh_CN" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1327,18 +1232,14 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="zh_HK" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
                 <f n="gettext-runtime.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="zh_TW" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1348,11 +1249,8 @@
                 <f n="gettext-tools.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
-            <mod>mode</mod>
           </f>
           <f n="man" o="root" g="wheel" p="16893">
             <f n="man1" o="root" g="wheel" p="16893">
@@ -1419,7 +1317,6 @@
               <f n="xgettext.1" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="man3" o="root" g="wheel" p="16893">
               <f n="bind_textdomain_codeset.3" o="root" g="wheel" p="33204">
@@ -1449,11 +1346,8 @@
               <f n="textdomain.3" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
-            <mod>mode</mod>
           </f>
-          <mod>mode</mod>
         </f>
       </f>
     </f>
