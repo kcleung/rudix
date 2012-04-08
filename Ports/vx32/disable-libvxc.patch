@@ -1,0 +1,11 @@
+--- src/Makefrag.orig	2012-03-11 17:13:14.000000000 -0300
++++ src/Makefrag	2012-03-11 17:14:08.000000000 -0300
+@@ -50,7 +50,7 @@
+ 
+ 
+ # Include Makefrags for subdirectories
+-include libvxc/Makefrag
++#include libvxc/Makefrag
+ include libvx32/Makefrag
+ include vxrun/Makefrag
+ include vxlinux/Makefrag

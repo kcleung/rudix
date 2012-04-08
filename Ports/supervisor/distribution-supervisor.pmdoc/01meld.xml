@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="DF91DFF3-80D3-11E1-85BA-D49A200B3D20">
+<pkgref spec="1.12" uuid="F512F3FA-80DC-11E1-BEEF-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.meld3</identifier>
     <version>0.6.8-0</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
-    <installFrom relative="true" mod="true">../../Ports/meld3/meld3-install</installFrom>
+    <installFrom relative="true" mod="true">../meld3/meld3-install</installFrom>
     <installTo>/</installTo>
     <flags>
       <followSymbolicLinks/>
@@ -19,7 +19,7 @@
     <mod>parent</mod>
   </config>
   <contents>
-    <file-list>../../Ports/meld3/meld3.pmdoc/01meld-contents.xml</file-list>
+    <file-list>../meld3/meld3.pmdoc/01meld-contents.xml</file-list>
     <filter>/CVS$</filter>
     <filter>/\.svn$</filter>
     <filter>/\.cvsignore$</filter>

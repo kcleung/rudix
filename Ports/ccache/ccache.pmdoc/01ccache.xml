@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="2A7DEE5E-5CD0-11E1-A9C9-D49A200B3D20">
+<pkgref spec="1.12" uuid="513583AC-5CD2-11E1-98A9-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.ccache</identifier>
     <version>3.1.7-0</version>

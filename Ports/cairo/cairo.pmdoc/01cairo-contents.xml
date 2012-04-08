@@ -40,9 +40,6 @@
             <f n="cairo-version.h" o="root" g="wheel" p="33204">
               <mod>mode</mod>
             </f>
-            <f n="cairo-xcb.h" o="root" g="wheel" p="33204">
-              <mod>mode</mod>
-            </f>
             <f n="cairo-xlib-xrender.h" o="root" g="wheel" p="33204">
               <mod>mode</mod>
             </f>
@@ -121,12 +118,6 @@
               <mod>mode</mod>
             </f>
             <f n="cairo-svg.pc" o="root" g="wheel" p="33204">
-              <mod>mode</mod>
-            </f>
-            <f n="cairo-xcb-shm.pc" o="root" g="wheel" p="33204">
-              <mod>mode</mod>
-            </f>
-            <f n="cairo-xcb.pc" o="root" g="wheel" p="33204">
               <mod>mode</mod>
             </f>
             <f n="cairo-xlib-xrender.pc" o="root" g="wheel" p="33204">

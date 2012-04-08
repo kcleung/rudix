@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="003615CF-8120-11E1-B84A-D49A200B3D20">
+<pkgref spec="1.12" uuid="C1F8C320-8120-11E1-93E3-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.dos2unix</identifier>
     <version>5.3.3-0</version>
