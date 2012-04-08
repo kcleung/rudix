@@ -1,16 +1,12 @@
 <?xml version="1.0"?>
-<<<<<<< local
-<pkgref spec="1.12" uuid="F9292AE8-75CB-11E1-B73A-0017F22C0C04">
-=======
-<pkgref spec="1.12" uuid="53028951-811A-11E1-9A9D-D49A200B3D20">
->>>>>>> other
+<pkgref spec="1.12" uuid="003615CF-8120-11E1-B84A-D49A200B3D20">
   <config>
-    <identifier>org.rudix.pkg.pixman</identifier>
-    <version>0.24.4-1</version>
+    <identifier>org.rudix.pkg.dos2unix</identifier>
+    <version>5.3.3-0</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
-    <installFrom relative="true" mod="true">pixman-install</installFrom>
+    <installFrom relative="true" mod="true">dos2unix-install</installFrom>
     <installTo>/</installTo>
     <flags>
       <followSymbolicLinks/>
@@ -23,7 +19,7 @@
     <mod>parent</mod>
   </config>
   <contents>
-    <file-list>01pixman-contents.xml</file-list>
+    <file-list>01dos-contents.xml</file-list>
     <filter>/CVS$</filter>
     <filter>/\.svn$</filter>
     <filter>/\.cvsignore$</filter>
