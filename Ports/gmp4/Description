@@ -4,4 +4,4 @@ GMP is a free library for arbitrary precision arithmetic, operating on signed in
   * License: GPL
 
 Release Notes:
-  * Fat Binary
+  * Rebuild on Xcode 4.2
