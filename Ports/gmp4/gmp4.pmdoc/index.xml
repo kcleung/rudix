@@ -17,7 +17,7 @@
   * License: GPL
 
 Release Notes:
-  * Fat Binary
+  * Rebuild on Xcode 4.2
 </description>
   <contents>
     <choice title="gmp4-install" id="choice0" starts_selected="true" starts_enabled="true" starts_hidden="false">

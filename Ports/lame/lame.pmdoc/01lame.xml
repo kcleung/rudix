@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="AA97ADF0-72F6-11E1-B855-D49A200B3D20">
+<pkgref spec="1.12" uuid="E599375A-72F8-11E1-871B-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.lame</identifier>
     <version>3.99.5-0</version>
