@@ -1,0 +1,157 @@
+Index: ice-9/boot-9.scm
+===================================================================
+RCS file: /cvsroot/guile/guile/guile-core/ice-9/boot-9.scm,v
+retrieving revision 1.356.2.10
+diff -u -r1.356.2.10 boot-9.scm
+--- ice-9/boot-9.scm	1 Sep 2007 17:11:00 -0000	1.356.2.10
++++ ice-9/boot-9.scm	25 Feb 2008 21:45:44 -0000
+@@ -2289,6 +2289,14 @@
+    (print-options print-enable print-disable)
+    (print-set!)))
+ 
++;;; Stack depth calibration, for the 'stack debug option.
++
++(let ((x (%get-stack-depth)))
++  (let loop ((count 10))
++    (if (zero? count)
++	(%calibrate-stack-depth x (%get-stack-depth) 'report)
++	(cons count (loop (- count 1))))))
++
+ 
+ 
+ ;;; {Running Repls}
+Index: libguile/debug.h
+===================================================================
+RCS file: /cvsroot/guile/guile/guile-core/libguile/debug.h,v
+retrieving revision 1.58
+diff -u -r1.58 debug.h
+--- libguile/debug.h	4 Nov 2005 21:20:24 -0000	1.58
++++ libguile/debug.h	25 Feb 2008 21:45:44 -0000
+@@ -75,6 +75,7 @@
+     && scm_is_true (SCM_EXIT_FRAME_HDLR);\
+   scm_debug_mode_p = SCM_DEVAL_P\
+     || scm_check_entry_p || scm_check_apply_p || scm_check_exit_p;\
++  scm_calculate_stack_limit ();\
+ } while (0)
+ 
+ /* {Evaluator}
+Index: libguile/stackchk.c
+===================================================================
+RCS file: /cvsroot/guile/guile/guile-core/libguile/stackchk.c,v
+retrieving revision 1.28.2.1
+diff -u -r1.28.2.1 stackchk.c
+--- libguile/stackchk.c	12 Feb 2006 13:42:51 -0000	1.28.2.1
++++ libguile/stackchk.c	25 Feb 2008 21:45:44 -0000
+@@ -30,6 +30,13 @@
+ 
+ #ifdef STACK_CHECKING
+ int scm_stack_checking_enabled_p;
++int scm_stack_limit;
++
++/* As in y = mx + c.  These numbers define a linear transformation
++   from the stack depth specified as the 'stack debug option, to the
++   actual max stack depth that we allow. */
++static double calibrated_m = 1;
++static double calibrated_c = 0;
+ 
+ SCM_SYMBOL (scm_stack_overflow_key, "stack-overflow");
+ 
+@@ -44,6 +51,58 @@
+ 	     SCM_BOOL_F);
+ }
+ 
++/* Stack depth calibration. */
++
++SCM_DEFINE (scm_sys_get_stack_depth, "%get-stack-depth", 0, 0, 0,
++	    (),
++	    "Return current stack depth.")
++#define FUNC_NAME s_scm_sys_get_stack_depth
++{
++  SCM_STACKITEM stack;
++  return scm_from_int (SCM_STACK_DEPTH (&stack));
++}
++#undef FUNC_NAME
++
++SCM_DEFINE (scm_sys_calibrate_stack_depth, "%calibrate-stack-depth", 2, 1, 0,
++	    (SCM d1, SCM d2, SCM debugp),
++	    "Calibrate linear transformation for stack depth limit checking.")
++#define FUNC_NAME s_scm_sys_calibrate_stack_depth
++{
++  /* x1 and x2 are the stack depth values that we get on a Debian
++     GNU/Linux ia32 system - which we take as our canonical system.
++     y1 and y2 are the values measured on the system where Guile is
++     currently running. */
++  int x1 = 170, x2 = 690, y1, y2;
++
++  SCM_VALIDATE_INT_COPY (1, d1, y1);
++  SCM_VALIDATE_INT_COPY (2, d2, y2);
++
++  calibrated_m = ((double) (y2 - y1)) / (x2 - x1);
++  calibrated_c = ((double) y2) - calibrated_m * x2;
++
++  if (scm_is_true (debugp) && !SCM_UNBNDP (debugp))
++    {
++      scm_puts (";; Stack calibration: (x1 x2 y1 y2 m c) = ",
++		scm_current_output_port ());
++      scm_write (scm_list_n (scm_from_int (x1), scm_from_int (x2),
++			     d1, d2,
++			     scm_from_double (calibrated_m),
++			     scm_from_double (calibrated_c),
++			     SCM_UNDEFINED),
++		 SCM_UNDEFINED);
++      scm_newline (SCM_UNDEFINED);
++    }
++
++  return SCM_UNSPECIFIED;
++}
++#undef FUNC_NAME
++
++void
++scm_calculate_stack_limit ()
++{
++  scm_stack_limit = (int) (calibrated_m * SCM_STACK_LIMIT + calibrated_c);
++}
++
+ #endif
+ 
+ long
+Index: libguile/stackchk.h
+===================================================================
+RCS file: /cvsroot/guile/guile/guile-core/libguile/stackchk.h,v
+retrieving revision 1.20.2.1
+diff -u -r1.20.2.1 stackchk.h
+--- libguile/stackchk.h	12 Feb 2006 13:42:51 -0000	1.20.2.1
++++ libguile/stackchk.h	25 Feb 2008 21:45:44 -0000
+@@ -35,14 +35,11 @@
+ 
+ #ifdef STACK_CHECKING
+ # if SCM_STACK_GROWS_UP
+-#  define SCM_STACK_OVERFLOW_P(s)\
+-   (SCM_STACK_PTR (s) \
+-    > (SCM_I_CURRENT_THREAD->base + SCM_STACK_LIMIT))
++#  define SCM_STACK_DEPTH(s) (SCM_STACK_PTR (s) - SCM_I_CURRENT_THREAD->base)
+ # else
+-#  define SCM_STACK_OVERFLOW_P(s)\
+-   (SCM_STACK_PTR (s) \
+-    < (SCM_I_CURRENT_THREAD->base - SCM_STACK_LIMIT))
++#  define SCM_STACK_DEPTH(s) (SCM_I_CURRENT_THREAD->base - SCM_STACK_PTR (s))
+ # endif
++# define SCM_STACK_OVERFLOW_P(s) (SCM_STACK_DEPTH (s) > scm_stack_limit)
+ # define SCM_CHECK_STACK\
+     {\
+        SCM_STACKITEM stack;\
+@@ -54,10 +51,14 @@
+ #endif /* STACK_CHECKING */
+ 
+ SCM_API int scm_stack_checking_enabled_p;
++SCM_API int scm_stack_limit;
+ 
+ 
+ 
+ SCM_API void scm_report_stack_overflow (void);
++SCM_API SCM scm_sys_get_stack_depth (void);
++SCM_API SCM scm_sys_calibrate_stack_depth (SCM d1, SCM d2, SCM debugp);
++SCM_API void scm_calculate_stack_limit (void);
+ SCM_API long scm_stack_size (SCM_STACKITEM *start);
+ SCM_API void scm_stack_report (void);
+ SCM_API void scm_init_stackchk (void);
