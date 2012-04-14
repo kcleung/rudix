@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="53028951-811A-11E1-9A9D-D49A200B3D20">
+<pkgref spec="1.12" uuid="70540804-8125-11E1-AFEA-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.pixman</identifier>
     <version>0.24.4-1</version>
