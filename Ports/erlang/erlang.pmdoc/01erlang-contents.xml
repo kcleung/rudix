@@ -727,7 +727,11 @@
                   <mod>mode</mod>
                 </f>
                 <f n="pdf" o="root" g="wheel" p="16893">
+<<<<<<< local
+                  <f n="erts-5.9.pdf" o="root" g="wheel" p="33204">
+=======
                   <f n="erts-5.9.1.pdf" o="root" g="wheel" p="33204">
+>>>>>>> other
                     <mod>mode</mod>
                   </f>
                   <mod>mode</mod>
@@ -1124,7 +1128,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="asn1-1.6.19" o="root" g="wheel" p="16893">
+=======
               <f n="asn1-1.7" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="c_src" o="root" g="wheel" p="16893">
                   <f n="asn1_erl_nif.c" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
@@ -1370,7 +1378,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="common_test-1.6" o="root" g="wheel" p="16893">
+=======
               <f n="common_test-1.6.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="basics_chapter.html" o="root" g="wheel" p="33204">
@@ -1715,7 +1727,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="compiler-4.8" o="root" g="wheel" p="16893">
+=======
               <f n="compiler-4.8.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="compile.html" o="root" g="wheel" p="33204">
@@ -5099,7 +5115,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="debugger-3.2.7" o="root" g="wheel" p="16893">
+=======
               <f n="debugger-3.2.8" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="debugger.eix" o="root" g="wheel" p="33204">
@@ -5423,7 +5443,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="dialyzer-2.5" o="root" g="wheel" p="16893">
+=======
               <f n="dialyzer-2.5.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="dialyzer.eix" o="root" g="wheel" p="33204">
@@ -5594,7 +5618,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="diameter-1.0" o="root" g="wheel" p="16893">
+=======
               <f n="diameter-1.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="bin" o="root" g="wheel" p="16893">
                   <f n="diameterc" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
@@ -5797,6 +5825,9 @@
                   <mod>mode</mod>
                 </f>
                 <f n="examples" o="root" g="wheel" p="16893">
+<<<<<<< local
+                  <f n="client.erl" o="root" g="wheel" p="33204">
+=======
                   <f n="code" o="root" g="wheel" p="16893">
                     <f n="client.erl" o="root" g="wheel" p="33204">
                       <mod>mode</mod>
@@ -5822,8 +5853,30 @@
                     <f n="server_cb.erl" o="root" g="wheel" p="33204">
                       <mod>mode</mod>
                     </f>
+>>>>>>> other
                     <mod>mode</mod>
                   </f>
+<<<<<<< local
+                  <f n="client_cb.erl" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="GNUmakefile" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="peer.erl" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="relay.erl" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="relay_cb.erl" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="server.erl" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="server_cb.erl" o="root" g="wheel" p="33204">
+=======
                   <f n="dict" o="root" g="wheel" p="16893">
                     <f n="rfc4004_mip.dia" o="root" g="wheel" p="33204">
                       <mod>mode</mod>
@@ -5843,6 +5896,7 @@
                     <f n="rfc4740_sip.dia" o="root" g="wheel" p="33204">
                       <mod>mode</mod>
                     </f>
+>>>>>>> other
                     <mod>mode</mod>
                   </f>
                   <mod>mode</mod>
@@ -6233,6 +6287,9 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="erl_docgen-0.3" o="root" g="wheel" p="16893">
+=======
               <f n="eldap-1.0" o="root" g="wheel" p="16893">
                 <f n="asn1" o="root" g="wheel" p="16893">
                   <f n="ELDAPv3.asn1" o="root" g="wheel" p="33204">
@@ -6303,6 +6360,7 @@
                 <mod>mode</mod>
               </f>
               <f n="erl_docgen-0.3.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="block_tags.html" o="root" g="wheel" p="33204">
@@ -6548,7 +6606,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="erl_interface-3.7.6" o="root" g="wheel" p="16893">
+=======
               <f n="erl_interface-3.7.7" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="bin" o="root" g="wheel" p="16893">
                   <f n="erl_call" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
@@ -7154,7 +7216,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="erts-5.9" o="root" g="wheel" p="16893">
+=======
               <f n="erts-5.9.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="ebin" o="root" g="wheel" p="16893">
                   <f n="erl_prim_loader.beam" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
@@ -7211,7 +7277,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="et-1.4.4" o="root" g="wheel" p="16893">
+=======
               <f n="et-1.4.4.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="coffee_order.png" o="root" g="wheel" p="33204">
@@ -7529,7 +7599,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="gs-1.5.15" o="root" g="wheel" p="16893">
+=======
               <f n="gs-1.5.15.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="contribs" o="root" g="wheel" p="16893">
                   <f n="bonk" o="root" g="wheel" p="16893">
                     <f n="bitmaps" o="root" g="wheel" p="16893">
@@ -8270,7 +8344,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="hipe-3.9" o="root" g="wheel" p="16893">
+=======
               <f n="hipe-3.9.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="cerl" o="root" g="wheel" p="16893">
                   <f n="cerl_cconv.erl" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
@@ -9164,7 +9242,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="ic-4.2.29" o="root" g="wheel" p="16893">
+=======
               <f n="ic-4.2.30" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="c_src" o="root" g="wheel" p="16893">
                   <f n="ic.c" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
@@ -9914,7 +9996,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="inets-5.8" o="root" g="wheel" p="16893">
+=======
               <f n="inets-5.9" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="ftp.html" o="root" g="wheel" p="33204">
@@ -10922,9 +11008,12 @@
                     <f n="inets_sup.erl" o="root" g="wheel" p="33204">
                       <mod>mode</mod>
                     </f>
+<<<<<<< local
+=======
                     <f n="inets_trace.erl" o="root" g="wheel" p="33204">
                       <mod>mode</mod>
                     </f>
+>>>>>>> other
                     <mod>mode</mod>
                   </f>
                   <f n="tftp" o="root" g="wheel" p="16893">
@@ -11063,7 +11152,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="jinterface-1.5.5" o="root" g="wheel" p="16893">
+=======
               <f n="jinterface-1.5.6" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="index.html" o="root" g="wheel" p="33204">
@@ -11489,7 +11582,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="kernel-2.15" o="root" g="wheel" p="16893">
+=======
               <f n="kernel-2.15.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="app.html" o="root" g="wheel" p="33204">
@@ -12104,7 +12201,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="megaco-3.16" o="root" g="wheel" p="16893">
+=======
               <f n="megaco-3.16.0.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="book.gif" o="root" g="wheel" p="33204">
@@ -13259,7 +13360,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="mnesia-4.6" o="root" g="wheel" p="16893">
+=======
               <f n="mnesia-4.7" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="book.gif" o="root" g="wheel" p="33204">
@@ -13625,7 +13730,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="observer-1.0" o="root" g="wheel" p="16893">
+=======
               <f n="observer-1.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="crashdump_help.html" o="root" g="wheel" p="33204">
@@ -14024,7 +14133,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="orber-3.6.23" o="root" g="wheel" p="16893">
+=======
               <f n="orber-3.6.24" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="COSS" o="root" g="wheel" p="16893">
                   <f n="CosNaming" o="root" g="wheel" p="16893">
                     <f n="cos_naming.idl" o="root" g="wheel" p="33204">
@@ -14897,7 +15010,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="os_mon-2.2.8" o="root" g="wheel" p="16893">
+=======
               <f n="os_mon-2.2.9" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="cpu_sup.html" o="root" g="wheel" p="33204">
@@ -15470,7 +15587,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="pman-2.7.1.1" o="root" g="wheel" p="16893">
+=======
               <f n="pman-2.7.1.2" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="index.html" o="root" g="wheel" p="33204">
@@ -15641,7 +15762,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="public_key-0.14" o="root" g="wheel" p="16893">
+=======
               <f n="public_key-0.15" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="asn1" o="root" g="wheel" p="16893">
                   <f n="OTP-PKIX.asn1" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
@@ -15803,7 +15928,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="reltool-0.5.7.1" o="root" g="wheel" p="16893">
+=======
               <f n="reltool-0.6" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="index.html" o="root" g="wheel" p="33204">
@@ -15929,7 +16058,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="runtime_tools-1.8.7" o="root" g="wheel" p="16893">
+=======
               <f n="runtime_tools-1.8.8" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="dbg.html" o="root" g="wheel" p="33204">
@@ -16016,6 +16149,8 @@
                     <mod>mode</mod>
                   </f>
                   <mod>mode</mod>
+<<<<<<< local
+=======
                 </f>
                 <f n="examples" o="root" g="wheel" p="16893">
                   <f n="dist.d" o="root" g="wheel" p="33204">
@@ -16085,6 +16220,7 @@
                     <mod>mode</mod>
                   </f>
                   <mod>mode</mod>
+>>>>>>> other
                 </f>
                 <f n="include" o="root" g="wheel" p="16893">
                   <f n="observer_backend.hrl" o="root" g="wheel" p="33204">
@@ -16106,12 +16242,15 @@
                     <f n="trace_ip_drv.so" o="root" g="wheel" p="33277">
                       <mod>mode</mod>
                     </f>
+<<<<<<< local
+=======
                     <mod>mode</mod>
                   </f>
                   <f n="obj" o="root" g="wheel" p="16893">
                     <f n="dyntrace.o" o="root" g="wheel" p="33277">
                       <mod>mode</mod>
                     </f>
+>>>>>>> other
                     <mod>mode</mod>
                   </f>
                   <mod>mode</mod>
@@ -16163,7 +16302,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="sasl-2.2" o="root" g="wheel" p="16893">
+=======
               <f n="sasl-2.2.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="alarm_handler.html" o="root" g="wheel" p="33204">
@@ -16391,7 +16534,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="snmp-4.21.4" o="root" g="wheel" p="16893">
+=======
               <f n="snmp-4.22" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="bin" o="root" g="wheel" p="16893">
                   <f n="snmpc" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
@@ -17471,7 +17618,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="ssh-2.0.9" o="root" g="wheel" p="16893">
+=======
               <f n="ssh-2.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="index.html" o="root" g="wheel" p="33204">
@@ -17629,6 +17780,21 @@
                   <mod>mode</mod>
                 </f>
                 <f n="src" o="root" g="wheel" p="16893">
+<<<<<<< local
+                  <f n="DSS.erl" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="DSS.hrl" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="PKCS-1.erl" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="PKCS-1.hrl" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+=======
+>>>>>>> other
                   <f n="ssh.erl" o="root" g="wheel" p="33204">
                     <mod>mode</mod>
                   </f>
@@ -17735,7 +17901,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="ssl-5.0" o="root" g="wheel" p="16893">
+=======
               <f n="ssl-5.0.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="index.html" o="root" g="wheel" p="33204">
@@ -18011,7 +18181,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="stdlib-1.18" o="root" g="wheel" p="16893">
+=======
               <f n="stdlib-1.18.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="array.html" o="root" g="wheel" p="33204">
@@ -18749,7 +18923,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="syntax_tools-1.6.7.2" o="root" g="wheel" p="16893">
+=======
               <f n="syntax_tools-1.6.8" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="chapter.html" o="root" g="wheel" p="33204">
@@ -18884,7 +19062,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="test_server-3.5" o="root" g="wheel" p="16893">
+=======
               <f n="test_server-3.5.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="basics_chapter.html" o="root" g="wheel" p="33204">
@@ -19010,7 +19192,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="toolbar-1.4.2.1" o="root" g="wheel" p="16893">
+=======
               <f n="toolbar-1.4.2.2" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="bar.gif" o="root" g="wheel" p="33204">
@@ -19103,7 +19289,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="tools-2.6.6.6" o="root" g="wheel" p="16893">
+=======
               <f n="tools-2.6.7" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="bin" o="root" g="wheel" p="16893">
                   <f n="emem" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
@@ -19370,7 +19560,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="tv-2.1.4.8" o="root" g="wheel" p="16893">
+=======
               <f n="tv-2.1.4.9" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="index.html" o="root" g="wheel" p="33204">
@@ -19865,7 +20059,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="wx-0.99.1" o="root" g="wheel" p="16893">
+=======
               <f n="wx-0.99.2" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="chapter.html" o="root" g="wheel" p="33204">
@@ -21586,6 +21784,24 @@
                   <mod>mode</mod>
                 </f>
                 <f n="info" o="root" g="wheel" p="33204">
+<<<<<<< local
+                  <mod>mode</mod>
+                </f>
+                <f n="priv" o="root" g="wheel" p="16893">
+                  <f n="erl_gl.so" o="root" g="wheel" p="33277">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="erlang-logo32.png" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="erlang-logo64.png" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="wxe_driver.so" o="root" g="wheel" p="33277">
+                    <mod>mode</mod>
+                  </f>
+=======
+>>>>>>> other
                   <mod>mode</mod>
                 </f>
                 <f n="src" o="root" g="wheel" p="16893">
@@ -22274,7 +22490,11 @@
                 </f>
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+              <f n="xmerl-1.3" o="root" g="wheel" p="16893">
+=======
               <f n="xmerl-1.3.1" o="root" g="wheel" p="16893">
+>>>>>>> other
                 <f n="doc" o="root" g="wheel" p="16893">
                   <f n="html" o="root" g="wheel" p="16893">
                     <f n="index.html" o="root" g="wheel" p="33204">
@@ -24667,9 +24887,12 @@
               <f n="README.md.txt" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
+<<<<<<< local
+=======
               <f n="README.systemtap.md" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
+>>>>>>> other
               <mod>mode</mod>
             </f>
           </f>

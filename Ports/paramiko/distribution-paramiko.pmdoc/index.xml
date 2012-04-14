@@ -26,7 +26,6 @@ Release Notes:
     <choice title="pycrypto-install" id="choice1" starts_selected="true" starts_enabled="true" starts_hidden="false">
       <pkgref id="org.rudix.pkg.pycrypto"/>
     </choice>
-
   </contents>
   <resources bg-scale="none" bg-align="bottomleft">
     <locale lang="en">

@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
+<<<<<<< local
+<pkgref spec="1.12" uuid="FA9967FE-8182-11E1-B794-0017F22C0C04">
+=======
 <pkgref spec="1.12" uuid="BD79AB9E-817C-11E1-A554-D49A200B3D20">
+>>>>>>> other
   <config>
     <identifier>org.rudix.pkg.pcre</identifier>
     <version>8.30-0</version>
