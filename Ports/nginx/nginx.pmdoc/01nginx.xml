@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
-<<<<<<< local
-<pkgref spec="1.12" uuid="B9BA1422-881C-11E1-AFDC-0017F22C0C04">
-=======
-<pkgref spec="1.12" uuid="88BFE551-881E-11E1-AB86-D49A200B3D20">
->>>>>>> other
+<pkgref spec="1.12" uuid="A78D77C8-881F-11E1-8E45-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.nginx</identifier>
     <version>1.0.15-0</version>

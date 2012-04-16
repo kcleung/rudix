@@ -39,7 +39,6 @@
             </f>
             <mod>mode</mod>
           </f>
-          <mod>mode</mod>
         </f>
         <f n="share" o="root" g="wheel" p="16893">
           <f n="doc" o="root" g="wheel" p="16893">
@@ -56,7 +55,6 @@
               <f n="README" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
           </f>
           <f n="nginx" o="root" g="wheel" p="16893">
@@ -79,12 +77,9 @@
             </f>
             <mod>mode</mod>
           </f>
-<<<<<<< local
-=======
           <f n="run" o="root" g="wheel" p="16893">
             <mod>mode</mod>
           </f>
->>>>>>> other
           <mod>mode</mod>
         </f>
       </f>
