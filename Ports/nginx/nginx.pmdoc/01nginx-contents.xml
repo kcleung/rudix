@@ -79,6 +79,12 @@
             </f>
             <mod>mode</mod>
           </f>
+<<<<<<< local
+=======
+          <f n="run" o="root" g="wheel" p="16893">
+            <mod>mode</mod>
+          </f>
+>>>>>>> other
           <mod>mode</mod>
         </f>
       </f>
