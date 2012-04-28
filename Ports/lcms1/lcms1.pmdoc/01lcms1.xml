@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="16B03A0A-9158-11E1-9870-D49A200B3D20">
+<pkgref spec="1.12" uuid="3B9B725E-8C8E-11E1-AF7A-D49A200B3D20">
   <config>
-    <identifier>org.rudix.pkg.varnish</identifier>
-    <version>3.0.2-0</version>
+    <identifier>org.rudix.pkg.lcms1</identifier>
+    <version>1.19-0</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
-    <installFrom relative="true" mod="true">varnish-install</installFrom>
+    <installFrom relative="true" mod="true">lcms1-install</installFrom>
     <installTo>/</installTo>
     <flags>
       <followSymbolicLinks/>
@@ -19,7 +19,7 @@
     <mod>version</mod>
   </config>
   <contents>
-    <file-list>01varnish-contents.xml</file-list>
+    <file-list>01lcms1-contents.xml</file-list>
     <filter>/CVS$</filter>
     <filter>/\.svn$</filter>
     <filter>/\.cvsignore$</filter>
