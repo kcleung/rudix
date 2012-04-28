@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
+<<<<<<< mine
+<pkgref spec="1.12" uuid="20696504-73C5-11E1-B0E7-0017F22C0C04">
+=======
 <pkgref spec="1.12" uuid="16CA2A2E-73C5-11E1-8EDE-D49A200B3D20">
+>>>>>>> theirs
   <config>
     <identifier>org.rudix.pkg.activemq</identifier>
     <version>5.5.1-0</version>
