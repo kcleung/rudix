@@ -271,6 +271,9 @@
           <f n="gnureadlink" o="root" g="wheel" p="33277">
             <mod>mode</mod>
           </f>
+          <f n="gnurealpath" o="root" g="wheel" p="33277">
+            <mod>mode</mod>
+          </f>
           <f n="gnurm" o="root" g="wheel" p="33277">
             <mod>mode</mod>
           </f>
@@ -484,6 +487,9 @@
           <f n="readlink" o="root" g="wheel" p="41469">
             <mod>mode</mod>
           </f>
+          <f n="realpath" o="root" g="wheel" p="41469">
+            <mod>mode</mod>
+          </f>
           <f n="rm" o="root" g="wheel" p="41469">
             <mod>mode</mod>
           </f>
@@ -609,6 +615,7 @@
           <f n="coreutils" o="root" g="wheel" p="16893">
             <mod>mode</mod>
           </f>
+          <mod>mode</mod>
         </f>
         <f n="share" o="root" g="wheel" p="16893">
           <f n="doc" o="root" g="wheel" p="16893">
@@ -917,7 +924,6 @@
                 <f n="coreutils.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="LC_TIME" o="root" g="wheel" p="16893">
                 <f n="coreutils.mo" o="root" g="wheel" p="41396">
@@ -925,7 +931,6 @@
                 </f>
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="ko" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -960,7 +965,6 @@
                 <f n="coreutils.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="LC_TIME" o="root" g="wheel" p="16893">
                 <f n="coreutils.mo" o="root" g="wheel" p="41396">
@@ -968,14 +972,12 @@
                 </f>
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="ms" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
                 <f n="coreutils.mo" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="LC_TIME" o="root" g="wheel" p="16893">
                 <f n="coreutils.mo" o="root" g="wheel" p="41396">
@@ -983,7 +985,6 @@
                 </f>
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="nb" o="root" g="wheel" p="16893">
               <f n="LC_MESSAGES" o="root" g="wheel" p="16893">
@@ -1444,6 +1445,9 @@
               <f n="gnureadlink.1" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
+              <f n="gnurealpath.1" o="root" g="wheel" p="33204">
+                <mod>mode</mod>
+              </f>
               <f n="gnurm.1" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
@@ -1655,6 +1659,9 @@
                 <mod>mode</mod>
               </f>
               <f n="readlink.1" o="root" g="wheel" p="41396">
+                <mod>mode</mod>
+              </f>
+              <f n="realpath.1" o="root" g="wheel" p="41396">
                 <mod>mode</mod>
               </f>
               <f n="rm.1" o="root" g="wheel" p="41396">

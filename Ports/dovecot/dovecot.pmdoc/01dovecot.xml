@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="C6F5337A-696F-11E1-9A06-D49A200B3D20">
+<pkgref spec="1.12" uuid="B2FBE2FC-6984-11E1-894D-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.dovecot</identifier>
     <version>2.1.1-0</version>
