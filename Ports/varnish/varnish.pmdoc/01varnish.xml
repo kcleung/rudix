@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
+<<<<<<< local
 <pkgref spec="1.12" uuid="36D0CBF4-915A-11E1-A356-0017F22C0C04">
+=======
+<pkgref spec="1.12" uuid="84BB9523-915F-11E1-9221-D49A200B3D20">
+>>>>>>> other
   <config>
     <identifier>org.rudix.pkg.varnish</identifier>
     <version>3.0.2-0</version>

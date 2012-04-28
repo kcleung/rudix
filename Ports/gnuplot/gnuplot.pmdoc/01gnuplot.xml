@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
+<<<<<<< local
 <pkgref spec="1.12" uuid="30B47862-9153-11E1-B82D-0017F22C0C04">
+=======
+<pkgref spec="1.12" uuid="00455C85-9163-11E1-9482-D49A200B3D20">
+>>>>>>> other
   <config>
     <identifier>org.rudix.pkg.gnuplot</identifier>
     <version>4.6.0-0</version>

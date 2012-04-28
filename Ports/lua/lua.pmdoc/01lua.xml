@@ -1,8 +1,12 @@
 <?xml version="1.0"?>
 <<<<<<< local
+<<<<<<< local
 <pkgref spec="1.12" uuid="86C66C86-9137-11E1-BB42-0017F22C0C04">
 =======
 <pkgref spec="1.12" uuid="76E77661-9136-11E1-9E85-D49A200B3D20">
+>>>>>>> other
+=======
+<pkgref spec="1.12" uuid="9AE72699-9163-11E1-A6B7-D49A200B3D20">
 >>>>>>> other
   <config>
     <identifier>org.rudix.pkg.lua</identifier>
