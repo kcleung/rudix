@@ -31,3 +31,7 @@ define install_post_hook
 ./links.sh $(InstallDir)$(Prefix)/share/man/man1
 cd $(InstallDir)$(Prefix)/share/info ; ln -sf grep.info gnugrep.info
 endef
+
+define explode
+xzcat $(Source) | tar -xf -
+endef

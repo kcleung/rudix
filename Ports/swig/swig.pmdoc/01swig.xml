@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="38B1EACA-8183-11E1-B365-D49A200B3D20">
+<pkgref spec="1.12" uuid="A5A15278-8184-11E1-89B5-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.swig</identifier>
     <version>2.0.4-0</version>

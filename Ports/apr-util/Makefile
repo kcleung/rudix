@@ -13,3 +13,7 @@ ReadMeFile=	$(BuildDir)/README
 LicenseFile=	$(BuildDir)/LICENSE
 
 GnuConfigureExtra += --with-apr=/usr/bin/apr-1-config
+
+ifdef ONLY_STATIC_LIBS
+GnuConfigureExtra += --enable-static --disable-shared
+endif
