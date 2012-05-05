@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="E9DFFE8F-8059-11E1-9448-D49A200B3D20">
+<pkgref spec="1.12" uuid="4EF3E6BC-805C-11E1-81CB-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.imap</identifier>
     <version>2007f-0</version>

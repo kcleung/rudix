@@ -33,7 +33,6 @@
                 <f n="wrapper.conf" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="run.jar" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
@@ -41,7 +40,6 @@
               <f n="wrapper.jar" o="root" g="wheel" p="33277">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="conf.default" o="root" g="wheel" p="16893">
               <f n="activemq-command.xml" o="root" g="wheel" p="33277">
@@ -125,16 +123,12 @@
               <f n="logging.properties" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
-            <f n="data" o="root" g="wheel" p="16893">
-              <mod>mode</mod>
-            </f>
+            <f n="data" o="root" g="wheel" p="16893"/>
             <f n="docs" o="root" g="wheel" p="16893">
               <f n="index.html" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="lib" o="root" g="wheel" p="16893">
               <f n="activation-1.1.jar" o="root" g="wheel" p="33204">
@@ -300,7 +294,6 @@
                 <f n="xstream-1.3.1.jar" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="slf4j-api-1.5.11.jar" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
@@ -348,9 +341,7 @@
                 <f n="spring-webmvc-3.0.3.RELEASE.jar" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="LICENSE" o="root" g="wheel" p="33204">
               <mod>mode</mod>
@@ -391,7 +382,6 @@
                   <f n="printable.jsp" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="graph.jsp" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
@@ -475,7 +465,6 @@
                   <f n="white-header-top.png" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="index.jsp" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
@@ -494,7 +483,6 @@
                     <f n="MochiKit.js" o="root" g="wheel" p="33277">
                       <mod>mode</mod>
                     </f>
-                    <mod>mode</mod>
                   </f>
                   <f n="plotkit" o="root" g="wheel" p="16893">
                     <f n="Base.js" o="root" g="wheel" p="33277">
@@ -521,7 +509,6 @@
                     <f n="SweetSVG.js" o="root" g="wheel" p="33277">
                       <mod>mode</mod>
                     </f>
-                    <mod>mode</mod>
                   </f>
                   <f n="prettify.js" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
@@ -529,7 +516,6 @@
                   <f n="standardista-table-sorting.js" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="message.jsp" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
@@ -541,7 +527,6 @@
                   <f n="NOTICE" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="network.jsp" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
@@ -574,7 +559,6 @@
                   <f n="type-settings.css" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="subscribers.jsp" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
@@ -589,7 +573,6 @@
                   <f n="systemProperties.jsp" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="topics.jsp" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
@@ -631,7 +614,6 @@
                               <f n="SendMessage.class" o="root" g="wheel" p="33277">
                                 <mod>mode</mod>
                               </f>
-                              <mod>mode</mod>
                             </f>
                             <f n="filter" o="root" g="wheel" p="16893">
                               <f n="ApplicationContextFilter$1.class" o="root" g="wheel" p="33277">
@@ -643,26 +625,19 @@
                               <f n="ApplicationContextFilter.class" o="root" g="wheel" p="33277">
                                 <mod>mode</mod>
                               </f>
-                              <mod>mode</mod>
                             </f>
                             <f n="handler" o="root" g="wheel" p="16893">
                               <f n="BindingBeanNameUrlHandlerMapping.class" o="root" g="wheel" p="33277">
                                 <mod>mode</mod>
                               </f>
-                              <mod>mode</mod>
                             </f>
                             <f n="WebConsoleStarter.class" o="root" g="wheel" p="33277">
                               <mod>mode</mod>
                             </f>
-                            <mod>mode</mod>
                           </f>
-                          <mod>mode</mod>
                         </f>
-                        <mod>mode</mod>
                       </f>
-                      <mod>mode</mod>
                     </f>
-                    <mod>mode</mod>
                   </f>
                   <f n="decorators.xml" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
@@ -670,9 +645,7 @@
                   <f n="dispatcher-servlet.xml" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <f n="jsp" o="root" g="wheel" p="16893">
-                    <mod>mode</mod>
-                  </f>
+                  <f n="jsp" o="root" g="wheel" p="16893"/>
                   <f n="jspf" o="root" g="wheel" p="16893">
                     <f n="headertags.jspf" o="root" g="wheel" p="33277">
                       <mod>mode</mod>
@@ -680,7 +653,6 @@
                     <f n="old.jspf" o="root" g="wheel" p="33277">
                       <mod>mode</mod>
                     </f>
-                    <mod>mode</mod>
                   </f>
                   <f n="tags" o="root" g="wheel" p="16893">
                     <f n="form" o="root" g="wheel" p="16893">
@@ -705,7 +677,6 @@
                       <f n="uri.tag" o="root" g="wheel" p="33277">
                         <mod>mode</mod>
                       </f>
-                      <mod>mode</mod>
                     </f>
                     <f n="jms" o="root" g="wheel" p="16893">
                       <f n="forEachConnection.tag" o="root" g="wheel" p="33277">
@@ -720,9 +691,7 @@
                       <f n="persistent.tag" o="root" g="wheel" p="33277">
                         <mod>mode</mod>
                       </f>
-                      <mod>mode</mod>
                     </f>
-                    <mod>mode</mod>
                   </f>
                   <f n="web.xml" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
@@ -745,7 +714,6 @@
                   <f n="webconsole-query.xml" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="xml" o="root" g="wheel" p="16893">
                   <f n="queues.jsp" o="root" g="wheel" p="33277">
@@ -754,9 +722,7 @@
                   <f n="topics.jsp" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="demo" o="root" g="wheel" p="16893">
                 <f n="chat.css" o="root" g="wheel" p="33277">
@@ -793,7 +759,6 @@
                   <f n="prototype.js" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="META-INF" o="root" g="wheel" p="16893">
                   <f n="LICENSE" o="root" g="wheel" p="33277">
@@ -802,7 +767,6 @@
                   <f n="NOTICE" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="portfolio" o="root" g="wheel" p="16893">
                   <f n="portfolio.html" o="root" g="wheel" p="33277">
@@ -811,7 +775,6 @@
                   <f n="portfolio.js" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="sandbox" o="root" g="wheel" p="16893">
                   <f n="index.html" o="root" g="wheel" p="33277">
@@ -829,7 +792,6 @@
                   <f n="webmq.js" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="send.html" o="root" g="wheel" p="33277">
                   <mod>mode</mod>
@@ -851,17 +813,13 @@
                     <f n="unittest.css" o="root" g="wheel" p="33277">
                       <mod>mode</mod>
                     </f>
-                    <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="WEB-INF" o="root" g="wheel" p="16893">
                   <f n="web.xml" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="favicon.ico" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
@@ -877,7 +835,6 @@
                   <f n="NOTICE" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
                 <f n="WEB-INF" o="root" g="wheel" p="16893">
                   <f n="classes" o="root" g="wheel" p="16893">
@@ -897,22 +854,15 @@
                             <f n="RestFilter.class" o="root" g="wheel" p="33277">
                               <mod>mode</mod>
                             </f>
-                            <mod>mode</mod>
                           </f>
-                          <mod>mode</mod>
                         </f>
-                        <mod>mode</mod>
                       </f>
-                      <mod>mode</mod>
                     </f>
-                    <mod>mode</mod>
                   </f>
                   <f n="web.xml" o="root" g="wheel" p="33277">
                     <mod>mode</mod>
                   </f>
-                  <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
               <f n="index.html" o="root" g="wheel" p="33204">
                 <mod>mode</mod>
@@ -924,14 +874,11 @@
                 <f n="type-settings.css" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
-                <mod>mode</mod>
               </f>
-              <mod>mode</mod>
             </f>
             <f n="WebConsole-README.txt" o="root" g="wheel" p="33204">
               <mod>mode</mod>
             </f>
-            <mod>mode</mod>
           </f>
         </f>
       </f>
