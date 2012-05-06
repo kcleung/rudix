@@ -4,7 +4,7 @@ include ../../Library/Rudix.mk
 
 all: setup tests teardown
 
-tests: git perl python local
+tests: git python local
 
 setup:
 	@$(call info_color,Starting tests)
@@ -30,4 +30,4 @@ local:
 teardown:
 	sudo rudix remove git
 	rm -rf .git/
-	$(call info_color,Finished)
+	@$(call info_color,Finished)

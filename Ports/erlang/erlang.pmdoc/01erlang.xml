@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="5345963D-8629-11E1-A9BC-D49A200B3D20">
+<pkgref spec="1.12" uuid="7C7C7292-8639-11E1-B09D-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.erlang</identifier>
     <version>R15B01-0</version>

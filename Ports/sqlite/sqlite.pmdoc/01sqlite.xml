@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="F6CDBC6E-8438-11E1-8978-D49A200B3D20">
+<pkgref spec="1.12" uuid="876EF598-843C-11E1-B468-0017F24DC283">
   <config>
     <identifier>org.rudix.pkg.sqlite</identifier>
     <version>3.7.11-0</version>
