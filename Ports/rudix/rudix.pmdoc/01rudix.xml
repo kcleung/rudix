@@ -1,8 +1,12 @@
 <?xml version="1.0"?>
+<<<<<<< local
 <pkgref spec="1.12" uuid="FE6B6E40-9163-11E1-AD21-0017F22C0C04">
+=======
+<pkgref spec="1.12" uuid="4931C94F-9D51-11E1-8C2D-D49A200B3D20">
+>>>>>>> other
   <config>
     <identifier>org.rudix.pkg.rudix</identifier>
-    <version>12.4-0</version>
+    <version>12.5-0</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
