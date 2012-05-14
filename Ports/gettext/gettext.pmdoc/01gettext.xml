@@ -1,12 +1,16 @@
 <?xml version="1.0"?>
 <<<<<<< local
+<<<<<<< local
 <pkgref spec="1.12" uuid="7795B5F2-8118-11E1-9EF5-0017F22C0C04">
 =======
 <pkgref spec="1.12" uuid="5B6EEADE-8115-11E1-9D2E-D49A200B3D20">
 >>>>>>> other
+=======
+<pkgref spec="1.12" uuid="42B9653A-9D5C-11E1-8A7B-D49A200B3D20">
+>>>>>>> other
   <config>
     <identifier>org.rudix.pkg.gettext</identifier>
-    <version>0.18.1.1-5</version>
+    <version>0.18.1.1-6</version>
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
@@ -16,11 +20,11 @@
       <followSymbolicLinks/>
     </flags>
     <packageStore type="internal"/>
-    <mod>installTo</mod>
+    <mod>version</mod>
     <mod>installFrom.path</mod>
     <mod>identifier</mod>
+    <mod>installTo</mod>
     <mod>parent</mod>
-    <mod>version</mod>
   </config>
   <contents>
     <file-list>01gettext-contents.xml</file-list>
