@@ -21588,6 +21588,21 @@
                 <f n="info" o="root" g="wheel" p="33204">
                   <mod>mode</mod>
                 </f>
+                <f n="priv" o="root" g="wheel" p="16893">
+                  <f n="erl_gl.so" o="root" g="wheel" p="33277">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="erlang-logo32.png" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="erlang-logo64.png" o="root" g="wheel" p="33204">
+                    <mod>mode</mod>
+                  </f>
+                  <f n="wxe_driver.so" o="root" g="wheel" p="33277">
+                    <mod>mode</mod>
+                  </f>
+                  <mod>mode</mod>
+                </f>
                 <f n="src" o="root" g="wheel" p="16893">
                   <f n="gen" o="root" g="wheel" p="16893">
                     <f n="gl.erl" o="root" g="wheel" p="33204">
