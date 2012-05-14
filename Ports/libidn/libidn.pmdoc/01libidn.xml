@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
-<<<<<<< local
-<pkgref spec="1.12" uuid="81371784-6252-11E1-A135-0017F22C0C04">
-=======
-<pkgref spec="1.12" uuid="67524FFD-9D68-11E1-A3A6-D49A200B3D20">
->>>>>>> other
+<pkgref spec="1.12" uuid="06130D4C-9D6C-11E1-8F67-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.libidn</identifier>
     <version>1.24-1</version>
@@ -16,11 +12,11 @@
       <followSymbolicLinks/>
     </flags>
     <packageStore type="internal"/>
-    <mod>installTo</mod>
+    <mod>version</mod>
     <mod>installFrom.path</mod>
     <mod>identifier</mod>
+    <mod>installTo</mod>
     <mod>parent</mod>
-    <mod>version</mod>
   </config>
   <contents>
     <file-list>01libidn-contents.xml</file-list>
