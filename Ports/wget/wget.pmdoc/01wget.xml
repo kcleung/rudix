@@ -1,8 +1,16 @@
 <?xml version="1.0"?>
+<<<<<<< local
+<pkgref spec="1.12" uuid="E86FFAB8-609C-11E1-AA36-0017F22C0C04">
+=======
 <pkgref spec="1.12" uuid="400956BA-9D69-11E1-8176-D49A200B3D20">
+>>>>>>> other
   <config>
     <identifier>org.rudix.pkg.wget</identifier>
+<<<<<<< local
+    <version>1.13.4-2</version>
+=======
     <version>1.13.4-3</version>
+>>>>>>> other
     <description/>
     <post-install type="none"/>
     <requireAuthorization/>
@@ -12,11 +20,22 @@
       <followSymbolicLinks/>
     </flags>
     <packageStore type="internal"/>
+<<<<<<< local
+    <mod>installTo</mod>
+=======
     <mod>version</mod>
+>>>>>>> other
     <mod>installFrom.path</mod>
     <mod>identifier</mod>
+<<<<<<< local
+=======
     <mod>installTo</mod>
+>>>>>>> other
     <mod>parent</mod>
+<<<<<<< local
+    <mod>version</mod>
+=======
+>>>>>>> other
   </config>
   <contents>
     <file-list>01wget-contents.xml</file-list>

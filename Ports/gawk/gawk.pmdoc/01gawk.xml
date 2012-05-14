@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="508B8F2B-6548-11E1-949E-D49A200B3D20">
+<pkgref spec="1.12" uuid="97098FEA-654C-11E1-813D-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.gawk</identifier>
     <version>4.0.0-2</version>
