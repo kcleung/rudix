@@ -17,7 +17,7 @@
   * License: GPL
 
 Release Notes:
-  * Rebuild on Xcode 4.3
+  * Rebuild on Xcode 4.2
   * Applied patch readline62-002 from http://ftp.gnu.org/gnu/readline/readline-6.2-patches/
 </description>
   <contents>

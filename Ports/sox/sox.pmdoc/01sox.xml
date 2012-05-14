@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="A0CA9ECF-91FB-11E1-A2BC-D49A200B3D20">
+<pkgref spec="1.12" uuid="A0C4C724-91FD-11E1-A242-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.sox</identifier>
     <version>14.4.0-0</version>
