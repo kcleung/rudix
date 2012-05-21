@@ -5,9 +5,9 @@ CxxFlags=
 LdFlags=
 
 Title=		GNU MP (Version 4)
-Name=		gmp4
+Name=		compat-gmp
 Version=	4.3.2
-Revision=	2
+Revision=	3
 URL=		http://ftp.gnu.org/gnu/gmp/
 Source=		gmp-$(Version).tar.bz2
 

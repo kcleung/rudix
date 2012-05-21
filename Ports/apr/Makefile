@@ -3,7 +3,7 @@ include ../../Library/GNU.mk
 Title=		APR
 Name=		apr
 Version=	1.4.6
-Revision=	0
+Revision=	1
 URL=		http://www.apache.org/dist/apr
 Source=		$(Name)-$(Version).tar.bz2
 
@@ -21,3 +21,7 @@ endef
 ifdef ONLY_STATIC_LIBS
 GnuConfigureExtra += --enable-static --disable-shared
 endif
+
+define final_inner_hook
+$(BinDir)/apr-1-config --version
+endef

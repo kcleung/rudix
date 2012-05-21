@@ -13,7 +13,7 @@ endif
 Title=		GLib
 Name=		glib
 Version=	2.28.8
-Revision=	0
+Revision=	1
 URL=		http://ftp.gnome.org/pub/GNOME/sources/glib/2.28/
 Source=		$(Name)-$(Version).tar.bz2
 
