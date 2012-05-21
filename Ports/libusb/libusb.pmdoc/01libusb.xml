@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="C7217DCF-9E1F-11E1-8FC9-D49A200B3D20">
+<pkgref spec="1.12" uuid="31465564-9E20-11E1-97A0-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.libusb</identifier>
     <version>1.0.9-0</version>

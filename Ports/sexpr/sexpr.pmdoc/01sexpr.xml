@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<pkgref spec="1.12" uuid="73568D26-671F-11E1-9182-D49A200B3D20">
+<pkgref spec="1.12" uuid="58776E10-6721-11E1-A9F0-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.sexpr</identifier>
     <version>1.2.1-1</version>

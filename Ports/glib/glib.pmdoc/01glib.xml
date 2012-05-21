@@ -1,5 +1,9 @@
 <?xml version="1.0"?>
+<<<<<<< local
+<pkgref spec="1.12" uuid="D563B01A-8039-11E1-9707-0017F22C0C04">
+=======
 <pkgref spec="1.12" uuid="7CBDF84C-9E2C-11E1-BC14-D49A200B3D20">
+>>>>>>> other
   <config>
     <identifier>org.rudix.pkg.glib</identifier>
     <version>2.28.8-1</version>
