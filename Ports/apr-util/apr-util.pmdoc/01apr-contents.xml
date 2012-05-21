@@ -113,18 +113,6 @@
         </f>
         <f n="lib" o="root" g="wheel" p="16893">
           <f n="apr-util-1" o="root" g="wheel" p="16893">
-            <f n="apr_dbd_pgsql-1.so" o="root" g="wheel" p="33277">
-              <mod>mode</mod>
-            </f>
-            <f n="apr_dbd_pgsql.a" o="root" g="wheel" p="33204">
-              <mod>mode</mod>
-            </f>
-            <f n="apr_dbd_pgsql.la" o="root" g="wheel" p="33277">
-              <mod>mode</mod>
-            </f>
-            <f n="apr_dbd_pgsql.so" o="root" g="wheel" p="41469">
-              <mod>mode</mod>
-            </f>
             <f n="apr_dbd_sqlite3-1.so" o="root" g="wheel" p="33277">
               <mod>mode</mod>
             </f>
