@@ -6,7 +6,7 @@ include ../../Library/PythonFormula.mk
 
 Title=		Mercurial
 Name=		mercurial
-Version=	2.1
+Version=	2.2.1
 Revision=	0
 URL=		http://www.selenic.com/mercurial/release/
 Source=		$(Name)-$(Version).tar.gz
@@ -16,4 +16,8 @@ LicenseFile=	$(SourceDir)/COPYING
 
 define test_post_hook
 cd $(SourceDir)/tests ; $(Python) run-tests.py
+endef
+
+define final_inner_hook
+$(BinDir)/hg --version
 endef
