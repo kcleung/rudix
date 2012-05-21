@@ -1,13 +1,5 @@
 <?xml version="1.0"?>
-<<<<<<< local
-<<<<<<< mine
-<pkgref spec="1.12" uuid="20696504-73C5-11E1-B0E7-0017F22C0C04">
-=======
-<pkgref spec="1.12" uuid="16CA2A2E-73C5-11E1-8EDE-D49A200B3D20">
->>>>>>> theirs
-=======
-<pkgref spec="1.12" uuid="C4A94C5C-A2A4-11E1-A468-D49A200B3D20">
->>>>>>> other
+<pkgref spec="1.12" uuid="69F9CADA-A2DA-11E1-8DBE-0017F22C0C04">
   <config>
     <identifier>org.rudix.pkg.activemq</identifier>
     <version>5.6.0-0</version>
