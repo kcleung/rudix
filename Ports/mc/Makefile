@@ -23,7 +23,7 @@ GnuConfigureExtra += --with-screen=ncurses
 GnuConfigureExtra += --with-x
 #GnuConfigureExtra += --enable-vfs-smb
 #GnuConfigureExtra += --with-glib-static # Bogus?
-GnuConfigureExtra += --enable-static --disable-shared
+#GnuConfigureExtra += --enable-static --disable-shared
 
 define fetch
 curl -f -O -C - -L -k
@@ -36,5 +36,5 @@ install -d $(InstallDir)/$(Prefix)/etc/mc
 endef
 
 define final_post_hook
-/usr/local/bin/mc --version
+$(BinDir)/mc --version
 endef
