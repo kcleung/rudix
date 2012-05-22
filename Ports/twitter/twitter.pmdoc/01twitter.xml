@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<pkgref spec="1.12" uuid="E3CEB2BE-6985-11E1-9195-0017F22C0C04">
+  <config>
+    <identifier>org.rudix.pkg.twitter</identifier>
+    <version>1.7.2-0</version>
+    <description/>
+    <post-install type="none"/>
+    <requireAuthorization/>
+    <installFrom relative="true" mod="true">twitter-install</installFrom>
+    <installTo>/</installTo>
+    <flags>
+      <followSymbolicLinks/>
+    </flags>
+    <packageStore type="internal"/>
+    <mod>version</mod>
+    <mod>installFrom.path</mod>
+    <mod>identifier</mod>
+    <mod>installTo</mod>
+    <mod>parent</mod>
+  </config>
+  <contents>
+    <file-list>01twitter-contents.xml</file-list>
+    <filter>/CVS$</filter>
+    <filter>/\.svn$</filter>
+    <filter>/\.cvsignore$</filter>
+    <filter>/\.cvspass$</filter>
+    <filter>/\.DS_Store$</filter>
+  </contents>
+</pkgref>
