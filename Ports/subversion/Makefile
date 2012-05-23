@@ -1,6 +1,7 @@
 BuildRequires += $(BinDir)/pkg-config
 BuildRequires += $(LibDir)/libneon.la
 BuildRequires += $(LibDir)/libintl.la
+BuildRequires += $(LibDir)/libsqlite3.la
 
 include ../../Library/GNU.mk
 

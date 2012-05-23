@@ -3,6 +3,9 @@ BuildRequires += $(LibDir)/libintl.la
 
 include ../../Library/GNU.mk
 
+CFlags=
+LdFlags=
+
 Title=		GNU Guile (Version 1)
 Name=		compat-guile
 Version=	1.8.8

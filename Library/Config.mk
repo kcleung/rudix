@@ -1,5 +1,5 @@
 # Config.mk - Global configuration
-RUDIX=rudix
+RUDIX=rudix-snowleopard
 RUDIX_UNIVERSAL=yes
 RUDIX_DISABLE_DEPENDENCY_TRACKING=yes
 RUDIX_SAVE_CONFIGURE_CACHE=yes
@@ -9,6 +9,6 @@ RUDIX_BUILD_WITH_STATIC_LIBS=yes
 RUDIX_BUILD_ONLY_STATIC_LIB=no
 RUDIX_PARALLEL_EXECUTION=yes
 RUDIX_APPLY_RECOMMENDATIONS=yes
-RUDIX_LABELS=Rudix-2012,OSX-Lion,XCode-4.3
-RUDIX_PACKAGEMAKER=/Applications/Utilities/PackageMaker.app/Contents/MacOS/packagemaker
-#RUDIX_PACKAGEMAKER=/Developer/usr/bin/packagemaker
+RUDIX_LABELS=Rudix-2012,OSX-SnowLeopard,XCode-4.2
+#RUDIX_PACKAGEMAKER=/Applications/Utilities/PackageMaker.app/Contents/MacOS/packagemaker
+RUDIX_PACKAGEMAKER=/Developer/usr/bin/packagemaker
