@@ -3,7 +3,10 @@ BuildRequires += $(LibDir)/libintl.la
 BuildRequires += $(LibDir)/libglib-2.0.la
 BuildRequires += $(LibDir)/libgmodule-2.0.la
 
-include ../../Library/GNU.mk
+include ../../Library/Config.mk
+RUDIX_UNIVERSAL=
+include ../../Library/Rudix.mk
+include ../../Library/GNUFormula.mk
 
 Title=		Midnight Commander
 Name=		mc
