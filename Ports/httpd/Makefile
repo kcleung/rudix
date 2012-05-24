@@ -1,4 +1,6 @@
 BuildRequires += $(BinDir)/pcre-config
+BuildRequires += $(LibDir)/libapr-1.la
+BuildRequires += $(LibDir)/libaprutil-1.la
 
 include ../../Library/GNU.mk
 
@@ -14,6 +16,8 @@ LicenseFile=	$(SourceDir)/LICENSE
 
 GnuConfigureExtra += --enable-layout=Rudix
 StripExtra += -x # Due `Symbol not found' error
+GnuConfigureExtra += --with-apr=$(BinDir)/apr-1-config
+GnuConfigureExtra += --with-apr-util=$(BinDir)/apu-1-config
 
 define install_post_hook
 for x in httpd.conf magic mime.types ; do \
