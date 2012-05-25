@@ -1,4 +1,4 @@
-BuildRequires += /Library/Python/2.7/site-packages/Crypto/
+BuildRequires += /Library/Python/2.6/site-packages/Crypto/
 
 include ../../Library/Python.mk
 
