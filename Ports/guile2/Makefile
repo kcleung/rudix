@@ -1,30 +1,24 @@
-BuildRequires += $(LibDir)/libgmp.la # Prefer version 4
+BuildRequires += $(BinDir)/pkg-config
+BuildRequires += $(LibDir)/libgmp.la # Prefer Version 5
 BuildRequires += $(LibDir)/libintl.la
+BuildRequires += $(LibDir)/libgc.la
+BuildRequires += $(LibDir)/libunistring.la
 
 include ../../Library/GNU.mk
 
-CFlags=
-LdFlags=
-
-Title=		GNU Guile (Version 1)
-Name=		compat-guile
-Version=	1.8.8
+Title=		GNU Guile
+Name=		guile
+Version=	2.0.5
 Revision=	0
 URL=		http://ftp.gnu.org/gnu/guile/
-Source=		guile-$(Version).tar.gz
+Source=		$(Name)-$(Version).tar.gz
 
 ReadMeFile=	$(SourceDir)/README
 LicenseFile=	$(SourceDir)/LICENSE
-
-UncompressedName = guile-$(Version)
 
 EnvExtra += 	LIBFFI_CFLAGS="-I/usr/include/ffi"
 EnvExtra +=	LIBFFI_LIBS="-L/usr/local/lib -lffi"
 
 define install_post_hook
 install -m 644 $(SourceDir)/{GUILE-Version,HACKING} $(InstallDir)/$(DocDir)/$(Name)
-endef
-
-define final_post_hook
-$(BinDir)/guile -v
 endef
