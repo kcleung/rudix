@@ -3,5 +3,5 @@ GNU M4 is an implementation of the traditional Unix macro processor.
   * Site: http://www.gnu.org/software/m4/
   * License: GPL
 
-Release Notes:
-  * Rebuild on Xcode 4.3
+Changes from previous release:
+  * Rebuild on Xcode 4.2
