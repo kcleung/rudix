@@ -9,3 +9,5 @@ Source=		$(Name)-$(Version).tar.bz2
 
 ReadMeFile=	$(SourceDir)/README
 LicenseFile=	$(SourceDir)/COPYING
+
+GnuConfigureExtra += --disable-asm
