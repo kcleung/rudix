@@ -4,4 +4,4 @@ Libunistring provides functions for manipulating Unicode strings.
   * License: GPL
 
 Release Notes:
-  * Rebuild on Xcode 4.3
+  * Rebuild on Xcode 4.2

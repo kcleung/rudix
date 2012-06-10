@@ -4,4 +4,5 @@ Cadaver is a command-line WebDAV client for Unix.
   * License: GPL
 
 Release Notes:
-  * Rebuild on Xcode 4.3
+  * Rebuild on Xcode 4.2
+
