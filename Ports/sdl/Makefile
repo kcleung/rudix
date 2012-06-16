@@ -12,6 +12,8 @@ LicenseFile=	$(SourceDir)/COPYING
 
 UncompressedName = sdl-$(Version) # Just in case…
 
+GnuConfigureExtra += --disable-assembly
+
 ifdef ONLY_STATIC_LIBS
 GnuConfigureExtra += --enable-static --disable-shared
 endif

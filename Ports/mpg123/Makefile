@@ -13,7 +13,7 @@ Source=		$(Name)-$(Version).tar.bz2
 ReadMeFile=	$(SourceDir)/README
 LicenseFile=	$(SourceDir)/COPYING
 
-GnuConfigureExtra += --with-cpu=x86-64
+GnuConfigureExtra += --with-cpu=x86
 
 define install_post_hook
 rm -rf $(SourceDir)/doc/examples/
