@@ -4,4 +4,5 @@ Rzip is a compression program, similar in functionality to gzip or bzip2.
   * License: GPL
 
 Release Notes:
-  * Rebuild on Xcode 4.3
+  * Rebuild on Xcode 4.2
+
