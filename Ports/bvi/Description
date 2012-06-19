@@ -4,5 +4,5 @@ The bvi is a display-oriented editor for binary files, based on the vi textedito
   * License: GPL
 
 Release Notes:
-  * Rebuild on Xcode 4.3
+  * Rebuild on Xcode 4.2
 
