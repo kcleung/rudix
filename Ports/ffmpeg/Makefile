@@ -19,6 +19,8 @@ LicenseFile=	$(SourceDir)/LICENSE
 ConfigureExtra += --enable-gpl
 ConfigureExtra += --enable-libmp3lame
 ConfigureExtra += --enable-shared
+# http://code.google.com/p/rudix-snowleopard/issues/detail?id=1
+ConfigureExtra += --disable-mmx
 
 define final_inner_hook
 $(BinDir)/ffmpeg -version
