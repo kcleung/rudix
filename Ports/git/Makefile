@@ -25,14 +25,14 @@ install -d $(InstallDir)/Applications
 mv $(InstallDir)$(Prefix)/share/git-gui/lib/Git\ Gui.app \
 	$(InstallDir)/Applications
 # Fix Perl module position
-install -d $(InstallDir)/Library/Perl/Updates/5.12.3
-mv $(InstallDir)$(LibDir)/perl5/site_perl/*.pm \
-	$(InstallDir)/Library/Perl/Updates/5.12.3
+##install -d $(InstallDir)/Library/Perl/Updates/5.12.3
+##mv $(InstallDir)$(LibDir)/perl5/site_perl/*.pm \
+##	$(InstallDir)/Library/Perl/Updates/5.12.3
 # Fix Python module position
-install -d $(InstallDir)/Library/Python/2.7
-mv $(InstallDir)$(LibDir)/python2.7/site-packages \
-	$(InstallDir)/Library/Python/2.7
-rmdir $(InstallDir)$(LibDir)/python2.7
+install -d $(InstallDir)/Library/Python/2.6
+mv $(InstallDir)$(LibDir)/python2.6/site-packages \
+	$(InstallDir)/Library/Python/2.6
+rmdir $(InstallDir)$(LibDir)/python2.6
 # Nothing interesting is resting here
 rm -rf $(InstallDir)$(LibDir)
 # Manpages
