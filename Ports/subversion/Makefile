@@ -7,7 +7,7 @@ include ../../Library/GNU.mk
 
 Title=		Apache Subversion
 Name=		subversion
-Version=	1.7.4
+Version=	1.7.5
 Revision=	0
 URL=		http://ftp.unicamp.br/pub/apache/subversion/
 Source=		$(Name)-$(Version).tar.bz2
@@ -22,4 +22,3 @@ endef
 define final_inner_hook
 $(BinDir)/svn --version
 endef
-
