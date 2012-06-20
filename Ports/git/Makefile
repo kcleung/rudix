@@ -47,6 +47,6 @@ endef
 
 define final_inner_hook
 $(BinDir)/git --version
-perl -e 'use Git'
+#perl -e 'use Git'
 python -c 'import git_remote_helpers'
 endef
