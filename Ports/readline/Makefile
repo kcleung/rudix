@@ -3,7 +3,7 @@ include ../../Library/GNU.mk
 Title=		GNU Readline
 Name=		readline
 Version=	6.2
-Revision=	1
+Revision=	2
 URL=		http://ftp.gnu.org/gnu/readline/
 Source=		$(Name)-$(Version).tar.gz
 
@@ -15,8 +15,8 @@ GnuMakeInstallExtra += install-doc
 
 define install_post_hook
 install -m 644 $(SourceDir)/doc/*.html $(InstallDir)/$(DocDir)/$(Name)
-#chmod u+w $(InstallDir)$(LibDir)/*.dylib
-#rmdir $(InstallDir)$(BinDir)
+chmod u+w $(InstallDir)$(LibDir)/*.dylib
+rmdir $(InstallDir)$(BinDir)
 endef
 
 ifdef ONLY_STATIC_LIBS
